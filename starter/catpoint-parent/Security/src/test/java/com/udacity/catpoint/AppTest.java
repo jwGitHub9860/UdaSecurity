@@ -163,7 +163,7 @@ public class AppTest {
 //        securityService.setArmingStatus(ArmingStatus.ARMED_HOME);
 //        securityService.processImage(mock(BufferedImage.class));
 
-        verify(securityRepository, atMostOnce()).setAlarmStatus(AlarmStatus.NO_ALARM);
+        verify(securityRepository, times(1)).setAlarmStatus(AlarmStatus.NO_ALARM);
     }
 
     //9
