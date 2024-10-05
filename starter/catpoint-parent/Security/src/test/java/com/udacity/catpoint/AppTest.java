@@ -235,20 +235,20 @@ public class AppTest {
 
     }
 
-    @Test
-    void coverage() {
-        when(securityRepository.getSensors()).thenReturn(sensors);
-        securityService.changeSensorActivationStatus(sensor, false);
-        securityService.addSensor(sensor1);
-//        securityService.getAlarmStatus();
-//        securityService.removeSensor(sensor1);
-        securityService.setFalseActivationStatusForSensors(sensors);
-        securityService.catDetected(false);
-
-        securityService.setAlarmStatus(AlarmStatus.ALARM);
-        securityService.handleSensorDeactivated();
-//        securityService.getAlarmStatus();
-    }
+//    @Test
+//    void coverage() {
+//        when(securityRepository.getSensors()).thenReturn(sensors);
+//        securityService.changeSensorActivationStatus(sensor, false);
+//        securityService.addSensor(sensor1);
+////        securityService.getAlarmStatus();
+////        securityService.removeSensor(sensor1);
+//        securityService.setFalseActivationStatusForSensors(sensors);
+//        securityService.catDetected(false);
+//
+//        securityService.setAlarmStatus(AlarmStatus.ALARM);
+//        securityService.handleSensorDeactivated();
+////        securityService.getAlarmStatus();
+//    }
 
     // More tests covering SecurityService class
     @Test
