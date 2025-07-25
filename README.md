@@ -168,6 +168,8 @@ Mirchevski, Bruno. “17 Maven Commands and Options [Cheat Sheet].” _VPSServer
 
 “MLA Works Cited: Electronic Sources (Web Publications).” _MLA Works Cited: Electronic Sources - Purdue OWL® - Purdue University_, owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_works_cited_electronic_sources.html. Accessed 24 Jul. 2025.
 
+“Mockito Core » 3.6.0.” _MVN REPOSITORY_, mvnrepository.com/artifact/org.mockito/mockito-core/3.6.0. Accessed 25 Jul. 2025.
+
 “Online Compiler and Debugger for C/C++.” _GDB Online Debugger_, www.onlinegdb.com/. Accessed 24 Jul. 2025. 
 
 S, Shouvik. “I Am Not Able to Create a Jar File, When Trying to Build Security Module.” _Knowledge_, Udacity, 2024, knowledge.udacity.com/questions/1022201. Accessed 24 Jul. 2025.
