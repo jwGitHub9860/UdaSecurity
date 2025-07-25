@@ -158,11 +158,15 @@ _None_
 
 A, Noyan. “How Do I Run My Program after Splitting It into Modules?” _Knowledge_, Udacity, 2021, knowledge.udacity.com/questions/483315. Accessed 24 Jul. 2025.
 
+James, and Gabriel Belingueres. “How to Find out Which Dependencies Need to Be Included?” _Stack Overflow_, 24 Nov. 2011, stackoverflow.com/questions/8262540/how-to-find-out-which-dependencies-need-to-be-included. Accessed 24 Jul. 2025.
+
 Mirchevski, Bruno. “17 Maven Commands and Options [Cheat Sheet].” _VPSServer.Com_, 27 Sept. 2023, www.vpsserver.com/maven-commands-and-options/. Accessed 24 Jul. 2025.
 
 “MLA Works Cited: Electronic Sources (Web Publications).” _MLA Works Cited: Electronic Sources - Purdue OWL® - Purdue University_, owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_works_cited_electronic_sources.html. Accessed 24 Jul. 2025.
 
 “Online Compiler and Debugger for C/C++.” _GDB Online Debugger_, www.onlinegdb.com/. Accessed 24 Jul. 2025. 
+
+S, Shouvik. “I Am Not Able to Create a Jar File, When Trying to Build Security Module.” _Knowledge_, Udacity, 2024, knowledge.udacity.com/questions/1022201. Accessed 24 Jul. 2025.
 
 Song, Yitong. “Unable to See Maven Tab IntelliJ IDEA 2024.3 (Ultimate Edition).” _JETBRAINS_, 18 Nov. 2024, intellij-support.jetbrains.com/hc/en-us/community/posts/22715417398034-Unable-to-see-maven-tab-IntelliJ-IDEA-2024-3-Ultimate-Edition. Accessed 24 Jul. 2025.
 
