@@ -136,3 +136,32 @@ Make sure you have completed all the rubric items [here](https://review.udacity.
 
 You can submit your project by uploading a zip file or selecting your GitHub repo.
 
+
+<br/>
+
+
+## Description:
+
+The project is a home security application that tracks the status of sensors, monitors camera input, and changes the alarm state of the system based on inputs. Users can arm the system for when they’re home or away as well as disarm the system.
+
+## Files Used
+
+_None_
+
+
+## Date created
+
+**7/24/2025**
+
+## Credits
+###### References used while making project
+
+“MLA Works Cited: Electronic Sources (Web Publications).” _MLA Works Cited: Electronic Sources - Purdue OWL® - Purdue University_, owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_works_cited_electronic_sources.html. Accessed 24 Jul. 2025.
+
+“Online Compiler and Debugger for C/C++.” _GDB Online Debugger_, www.onlinegdb.com/. Accessed 24 Jul. 2025. 
+
+UAnjali. “Udacity/Cd0384-Java-Application-Deployment-Projectstarter.” GitHub, 2021, github.com/udacity/cd0384-java-application-deployment-projectstarter. 24 Jul. 2025.
+
+“Udacity Git Commit Message Style Guide.” _Udacity Nanodegree Style Guide_, udacity.github.io/git-styleguide/. Accessed 24 Jul. 2025.
+
+zoran119. “New Lines inside Paragraph in README.Md.” Edited by Yivi, _Stack Overflow_, 4 July 2014, stackoverflow.com/questions/24575680/new-lines-inside-paragraph-in-readme-md. Accessed 24 Jul. 2025.
