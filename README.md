@@ -162,7 +162,7 @@ Mirchevski, Bruno. “17 Maven Commands and Options [Cheat Sheet].” _VPSServer
 
 “Online Compiler and Debugger for C/C++.” _GDB Online Debugger_, www.onlinegdb.com/. Accessed 24 Jul. 2025. 
 
-UAnjali. “Udacity/Cd0384-Java-Application-Deployment-Projectstarter.” GitHub, 2021, github.com/udacity/cd0384-java-application-deployment-projectstarter. 24 Jul. 2025.
+UAnjali. “Udacity/Cd0384-Java-Application-Deployment-Projectstarter.” _GitHub_, 2021, github.com/udacity/cd0384-java-application-deployment-projectstarter. 24 Jul. 2025.
 
 “Udacity Git Commit Message Style Guide.” _Udacity Nanodegree Style Guide_, udacity.github.io/git-styleguide/. Accessed 24 Jul. 2025.
 
