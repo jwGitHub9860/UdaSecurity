@@ -160,6 +160,8 @@ A, Noyan. “How Do I Run My Program after Splitting It into Modules?” _Knowle
 
 James, and Gabriel Belingueres. “How to Find out Which Dependencies Need to Be Included?” _Stack Overflow_, 24 Nov. 2011, stackoverflow.com/questions/8262540/how-to-find-out-which-dependencies-need-to-be-included. Accessed 24 Jul. 2025.
 
+“JUnit Jupiter API » 5.7.0.” _MVN REPOSITORY_, mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api/5.7.0. Accessed 25 Jul. 2025.
+
 Mirchevski, Bruno. “17 Maven Commands and Options [Cheat Sheet].” _VPSServer.Com_, 27 Sept. 2023, www.vpsserver.com/maven-commands-and-options/. Accessed 24 Jul. 2025.
 
 “MLA Works Cited: Electronic Sources (Web Publications).” _MLA Works Cited: Electronic Sources - Purdue OWL® - Purdue University_, owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_works_cited_electronic_sources.html. Accessed 24 Jul. 2025.
