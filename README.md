@@ -156,6 +156,8 @@ _None_
 ## Credits
 ###### References used while making project
 
+A, Noyan. “How Do I Run My Program after Splitting It into Modules?” _Knowledge_, Udacity, 2021, knowledge.udacity.com/questions/483315. Accessed 24 Jul. 2025.
+
 Mirchevski, Bruno. “17 Maven Commands and Options [Cheat Sheet].” _VPSServer.Com_, 27 Sept. 2023, www.vpsserver.com/maven-commands-and-options/. Accessed 24 Jul. 2025.
 
 “MLA Works Cited: Electronic Sources (Web Publications).” _MLA Works Cited: Electronic Sources - Purdue OWL® - Purdue University_, owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_works_cited_electronic_sources.html. Accessed 24 Jul. 2025.
