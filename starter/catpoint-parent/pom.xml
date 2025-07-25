@@ -25,7 +25,7 @@
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-api</artifactId>
-      <version>5.7.0</version> <!-- can NOT use "6.0.0-M2", "6.0.0-M1", "5.13.4", "5.13.3", "5.13.2", "5.13.1", "5.13.0", "5.13.0-RC1", "5.13.0-M3" versions, or ANYTHING Higher Than version "5.7.1" because versions CANNOT Be Found, Causing Error will Occur -->
+      <version>5.7.0</version> <!-- can NOT use "6.0.0-M2", "6.0.0-M1", "5.13.4", "5.13.3", "5.13.2", "5.13.1", "5.13.0", "5.13.0-RC1", "5.13.0-M3" versions, or ANYTHING Higher Than version "5.7.0" because versions CANNOT Be Found, Causing Error will Occur -->
       <scope>test</scope>
     </dependency>
 
@@ -34,7 +34,16 @@
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-engine</artifactId>
-      <version>5.7.0</version> <!-- can NOT use ANYTHING Higher Than version "5.7.1" because versions CANNOT Be Found, Causing Error will Occur -->
+      <version>5.7.0</version> <!-- can NOT use ANYTHING Higher Than version "5.7.0" because versions CANNOT Be Found, Causing Error will Occur -->
+      <scope>test</scope>
+    </dependency>
+
+    <!-- Mockito Core - Mockito mock objects library core API and implementation -->
+    <!-- https://mvnrepository.com/artifact/org.mockito/mockito-core -->
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <version>3.6.0</version> <!-- can NOT use ANYTHING Higher Than version "3.6.0" because versions CANNOT Be Found, Causing Error will Occur -->
       <scope>test</scope>
     </dependency>
   </dependencies>
