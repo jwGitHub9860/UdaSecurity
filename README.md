@@ -178,6 +178,8 @@ Mirchevski, Bruno. “17 Maven Commands and Options [Cheat Sheet].” _VPSServer
 
 “Online Compiler and Debugger for C/C++.” _GDB Online Debugger_, www.onlinegdb.com/. Accessed 24 Jul. 2025. 
 
+S, Nikolai. “Enhanced Switch Blocks Are Not Supported at Language Level 12.” _Knowledge_, Udacity, 2022, knowledge.udacity.com/questions/784400. Accessed 25 Jul. 2025.
+
 S, Shouvik. “I Am Not Able to Create a Jar File, When Trying to Build Security Module.” _Knowledge_, Udacity, 2024, knowledge.udacity.com/questions/1022201. Accessed 24 Jul. 2025.
 
 Song, Yitong. “Unable to See Maven Tab IntelliJ IDEA 2024.3 (Ultimate Edition).” _JETBRAINS_, 18 Nov. 2024, intellij-support.jetbrains.com/hc/en-us/community/posts/22715417398034-Unable-to-see-maven-tab-IntelliJ-IDEA-2024-3-Ultimate-Edition. Accessed 24 Jul. 2025.
