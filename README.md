@@ -184,7 +184,7 @@ Song, Yitong. “Unable to See Maven Tab IntelliJ IDEA 2024.3 (Ultimate Edition)
 
 Szczukocki, Denis. “Multi-Module Project with Maven.” _Baeldung_, 11 May 2024, www.baeldung.com/maven-multi-module. Accessed 25 Jul. 2025.
 
-UAnjali. “Udacity/Cd0384-Java-Application-Deployment-Projectstarter.” _GitHub_, 2021, github.com/udacity/cd0384-java-application-deployment-projectstarter. 24 Jul. 2025.
+UAnjali. “Udacity/Cd0384-Java-Application-Deployment-Projectstarter.” _GitHub_, 2021, github.com/udacity/cd0384-java-application-deployment-projectstarter. Accessed 24 Jul. 2025.
 
 “Udacity Git Commit Message Style Guide.” _Udacity Nanodegree Style Guide_, udacity.github.io/git-styleguide/. Accessed 24 Jul. 2025.
 
