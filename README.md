@@ -162,6 +162,8 @@ GuruKulki, and dinox0r. “How to Know the Which Archetype an Existing Maven Pro
 
 James, and Gabriel Belingueres. “How to Find out Which Dependencies Need to Be Included?” _Stack Overflow_, 24 Nov. 2011, stackoverflow.com/questions/8262540/how-to-find-out-which-dependencies-need-to-be-included. Accessed 24 Jul. 2025.
 
+Jason, and HJW. “What Archetype to Choose for a Simple Java Project.” Edited by Mustafa Özçetin and Rogerdpack, _Stack Overflow_, 23 Aug. 2011, stackoverflow.com/questions/7158348/what-archetype-to-choose-for-a-simple-java-project. Accessed 25 Jul. 2025.
+
 “JUnit Jupiter API » 5.7.0.” _MVN REPOSITORY_, mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api/5.7.0. Accessed 25 Jul. 2025.
 
 “JUnit Jupiter Engine » 5.7.0.” _MVN REPOSITORY_, mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine/5.7.0. Accessed 25 Jul. 2025.
