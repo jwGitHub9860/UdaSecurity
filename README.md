@@ -158,6 +158,8 @@ _None_
 
 A, Noyan. “How Do I Run My Program after Splitting It into Modules?” _Knowledge_, Udacity, 2021, knowledge.udacity.com/questions/483315. Accessed 24 Jul. 2025.
 
+ayush. “Udasecurity: Splitting the App.” _Knowledge_, Udacity, 2022, knowledge.udacity.com/questions/911834. Accessed 25 Jul. 2025.
+
 Azaw. “ Spilt the Security Service and Image Service into Modules in NEW Project?” _Knowledge_, Udacity, 2022, knowledge.udacity.com/questions/838167. Accessed 25 Jul. 2025.
 
 GuruKulki, and dinox0r. “How to Know the Which Archetype an Existing Maven Project Is Built On?” _Stack Overflow_, 14 Nov. 2013, stackoverflow.com/questions/19983017/how-to-know-the-which-archetype-an-existing-maven-project-is-built-on. Accessed 25 Jul. 2025.
