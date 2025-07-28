@@ -172,6 +172,8 @@ Jason, and HJW. “What Archetype to Choose for a Simple Java Project.” Edited
 
 “JUnit Jupiter Engine » 5.7.0.” _MVN REPOSITORY_, mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine/5.7.0. Accessed 25 Jul. 2025.
 
+“Maven. Repositories.” _IntelliJ IDEA Help_, IntelliJ IDEA, 23 Oct. 2024, www.jetbrains.com/help/idea/maven-repositories.html. Accessed 28 Jul. 2025.
+
 Mirchevski, Bruno. “17 Maven Commands and Options [Cheat Sheet].” _VPSServer.Com_, 27 Sept. 2023, www.vpsserver.com/maven-commands-and-options/. Accessed 24 Jul. 2025.
 
 “MLA Works Cited: Electronic Sources (Web Publications).” _MLA Works Cited: Electronic Sources - Purdue OWL® - Purdue University_, owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_works_cited_electronic_sources.html. Accessed 24 Jul. 2025.
