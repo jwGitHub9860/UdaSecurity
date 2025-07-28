@@ -17,7 +17,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
-        <!-- Defines "com.udacity.catpoint.data" Package -->
+        <!-- Defines "com.udacity.catpoint.data" Package --> <!-- Allows "CatpointGui.java" to Use "PretendDatabaseSecurityRepositoryImpl.java", "SecurityRepository.java", and "SecurityService.java" Java Files inside "Security" Child Module -->
         <dependency>
             <groupId>com.udacity.catpoint</groupId>
             <artifactId>Security</artifactId>
