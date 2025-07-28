@@ -166,6 +166,8 @@ dnim, et al. “IntelliJ IDEA: ‘Indexed Maven Repositories’ List - How to Ad
 
 GuruKulki, and dinox0r. “How to Know the Which Archetype an Existing Maven Project Is Built On?” _Stack Overflow_, 14 Nov. 2013, stackoverflow.com/questions/19983017/how-to-know-the-which-archetype-an-existing-maven-project-is-built-on. Accessed 25 Jul. 2025.
 
+“Introduction to Remote Repositories.” _Introduction to Remote Repositories | Learn Git Ebook (CLI Edition)_, www.git-tower.com/learn/git/ebook/en/command-line/remote-repositories/introduction#:~:text=Local%20repositories%20reside%20on%20the,or%20on%20a%20local%20network. Accessed 28 Jul. 2025.
+
 James, and Gabriel Belingueres. “How to Find out Which Dependencies Need to Be Included?” _Stack Overflow_, 24 Nov. 2011, stackoverflow.com/questions/8262540/how-to-find-out-which-dependencies-need-to-be-included. Accessed 24 Jul. 2025.
 
 Jason, and HJW. “What Archetype to Choose for a Simple Java Project.” Edited by Mustafa Özçetin and Rogerdpack, _Stack Overflow_, 23 Aug. 2011, stackoverflow.com/questions/7158348/what-archetype-to-choose-for-a-simple-java-project. Accessed 25 Jul. 2025.
