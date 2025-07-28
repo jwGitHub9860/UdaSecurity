@@ -162,7 +162,7 @@ ayush. “Udasecurity: Splitting the App.” _Knowledge_, Udacity, 2022, knowled
 
 Azaw. “ Spilt the Security Service and Image Service into Modules in NEW Project?” _Knowledge_, Udacity, 2022, knowledge.udacity.com/questions/838167. Accessed 25 Jul. 2025.
 
-dnim, et al. “IntelliJ IDEA: ‘Indexed Maven Repositories’ List - How to Add Remote Maven Repository in This List?” Edited by Shawn Chin and Om-nom-nom, _Stack Overflow_, 16 Nov. 2011, stackoverflow.com/questions/8150535/intellij-idea-indexed-maven-repositories-list-how-to-add-remote-maven-repos/58556678. Accessed 28 Jul. 2025.
+dnim. “IntelliJ IDEA: ‘Indexed Maven Repositories’ List - How to Add Remote Maven Repository in This List?” Edited by Shawn Chin and Om-nom-nom, _Stack Overflow_, 16 Nov. 2011, stackoverflow.com/questions/8150535/intellij-idea-indexed-maven-repositories-list-how-to-add-remote-maven-repos/58556678. Accessed 28 Jul. 2025.
 
 fudefite. “Using Miglayout with Netbeans.” _Stack Overflow_, 11 Dec. 2009, stackoverflow.com/questions/1891400/using-miglayout-with-netbeans. Accessed 28 Jul. 2025.
 
@@ -188,7 +188,7 @@ Mirchevski, Bruno. “17 Maven Commands and Options [Cheat Sheet].” _VPSServer
 
 “Multi-Module Project With Spring Boot.” _GeeksforGeeks_, GeeksforGeeks, 23 July 2025, www.geeksforgeeks.org/java/multi-module-project-with-spring-boot/. Accessed 25 Jul. 2025.
 
-nihilogist, et al. “Maven: Local versus Remote Repository.” Edited by Gijs Overvliet, _Stack Overflow_, 5 Jan. 2012, stackoverflow.com/questions/8746042/maven-local-versus-remote-repository. Accessed 28 Jul. 2025.
+nihilogist. “Maven: Local versus Remote Repository.” Edited by Gijs Overvliet, _Stack Overflow_, 5 Jan. 2012, stackoverflow.com/questions/8746042/maven-local-versus-remote-repository. Accessed 28 Jul. 2025.
 
 “Online Compiler and Debugger for C/C++.” _GDB Online Debugger_, www.onlinegdb.com/. Accessed 24 Jul. 2025. 
 
