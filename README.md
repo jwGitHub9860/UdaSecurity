@@ -164,6 +164,8 @@ Azaw. “ Spilt the Security Service and Image Service into Modules in NEW Proje
 
 dnim, et al. “IntelliJ IDEA: ‘Indexed Maven Repositories’ List - How to Add Remote Maven Repository in This List?” Edited by Shawn Chin and Om-nom-nom, _Stack Overflow_, 16 Nov. 2011, stackoverflow.com/questions/8150535/intellij-idea-indexed-maven-repositories-list-how-to-add-remote-maven-repos/58556678. Accessed 28 Jul. 2025.
 
+fudefite. “Using Miglayout with Netbeans.” _Stack Overflow_, 11 Dec. 2009, stackoverflow.com/questions/1891400/using-miglayout-with-netbeans. Accessed 28 Jul. 2025.
+
 GuruKulki, and dinox0r. “How to Know the Which Archetype an Existing Maven Project Is Built On?” _Stack Overflow_, 14 Nov. 2013, stackoverflow.com/questions/19983017/how-to-know-the-which-archetype-an-existing-maven-project-is-built-on. Accessed 25 Jul. 2025.
 
 “Introduction to Remote Repositories.” _Introduction to Remote Repositories | Learn Git Ebook (CLI Edition)_, www.git-tower.com/learn/git/ebook/en/command-line/remote-repositories/introduction#:~:text=Local%20repositories%20reside%20on%20the,or%20on%20a%20local%20network. Accessed 28 Jul. 2025.
