@@ -158,6 +158,8 @@ _None_
 
 A, Noyan. “How Do I Run My Program after Splitting It into Modules?” _Knowledge_, Udacity, 2021, knowledge.udacity.com/questions/483315. Accessed 24 Jul. 2025.
 
+audrey. “How to Use MigLayout in IntelliJ?” _Stack Overflow_, 17 Apr. 2018, stackoverflow.com/questions/49887811/how-to-use-miglayout-in-intellij. Accessed 28 Jul. 2025.
+
 ayush. “Udasecurity: Splitting the App.” _Knowledge_, Udacity, 2022, knowledge.udacity.com/questions/911834. Accessed 25 Jul. 2025.
 
 Azaw. “ Spilt the Security Service and Image Service into Modules in NEW Project?” _Knowledge_, Udacity, 2022, knowledge.udacity.com/questions/838167. Accessed 25 Jul. 2025.
