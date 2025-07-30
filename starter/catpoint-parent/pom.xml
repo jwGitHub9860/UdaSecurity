@@ -52,6 +52,14 @@
       <version>3.6.0</version> <!-- can NOT use ANYTHING Higher Than version "3.6.0" because versions CANNOT Be Found, Causing Error will Occur -->
       <scope>test</scope>
     </dependency>
+
+    <!-- JUnit - Unit Testing Framework that Writes & Runs Repeatable Automated Tests on Java --> <!-- Allows "CatpointGui.java" to Use "PretendDatabaseSecurityRepositoryImpl.java", "SecurityRepository.java", and "SecurityService.java" Java Files inside "Security" Child Module -->
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13.2</version>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
 
   <build>
