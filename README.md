@@ -206,6 +206,8 @@ S, Nikolai. “Enhanced Switch Blocks Are Not Supported at Language Level 12.”
 
 S, Shouvik. “I Am Not Able to Create a Jar File, When Trying to Build Security Module.” _Knowledge_, Udacity, 2024, knowledge.udacity.com/questions/1022201. Accessed 24 Jul. 2025.
 
+“Software.Amazon.Awssdk.Auth.Credentials.AwsBasicCredentials Maven / Gradle / Ivy.” _JAR Search and Dependency Download from the Maven Repository_, jar-download.com/artifacts/software.amazon.awssdk/bundle/2.0.0-preview-13/source-code/software/amazon/awssdk/auth/credentials/AwsBasicCredentials.java. Accessed 30 Jul. 2025.
+
 “Software/Amazon/Awssdk/Auth/2.9.9.” _Central Repository: Software/Amazon/Awssdk/Auth/2.9.9_, repo.maven.apache.org/maven2/software/amazon/awssdk/auth/2.9.9/. Accessed 28 Jul. 2025.
 
 Song, Yitong. “Unable to See Maven Tab IntelliJ IDEA 2024.3 (Ultimate Edition).” _JETBRAINS_, 18 Nov. 2024, intellij-support.jetbrains.com/hc/en-us/community/posts/22715417398034-Unable-to-see-maven-tab-IntelliJ-IDEA-2024-3-Ultimate-Edition. Accessed 24 Jul. 2025.
