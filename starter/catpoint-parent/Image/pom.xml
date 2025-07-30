@@ -24,6 +24,15 @@
             <artifactId>slf4j-api</artifactId>
             <version>1.7.36</version>
         </dependency>
+
+        <!-- Defines "software.amazon.awssdk" Package --> <!-- Allows "AwsImageService.java" to Use "software.amazon.awssdk" Package inside "Image" Child Module -->
+        <dependency>
+            <groupId>software.amazon.awssdk</groupId>
+            <artifactId>bundle</artifactId>
+            <version>2.0.0-preview-13</version>
+        </dependency>
+        <!-- Thanks for using https://jar-download.com -->
+
     </dependencies>
 
 </project>
