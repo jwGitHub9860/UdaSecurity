@@ -194,6 +194,8 @@ Mirchevski, Bruno. “17 Maven Commands and Options [Cheat Sheet].” _VPSServer
 
 “Multi-Module Project With Spring Boot.” _GeeksforGeeks_, GeeksforGeeks, 23 July 2025, www.geeksforgeeks.org/java/multi-module-project-with-spring-boot/. Accessed 25 Jul. 2025.
 
+“Net.Miginfocom.Swing.MigLayout Maven / Gradle / Ivy.” _JAR Search and Dependency Download from the Maven Repository_, jar-download.com/artifacts/com.miglayout/miglayout-swing/5.2/source-code/net/miginfocom/swing/MigLayout.java. Accessed 28 Jul. 2025.
+
 nihilogist. “Maven: Local versus Remote Repository.” Edited by Gijs Overvliet, _Stack Overflow_, 5 Jan. 2012, stackoverflow.com/questions/8746042/maven-local-versus-remote-repository. Accessed 28 Jul. 2025.
 
 “Online Compiler and Debugger for C/C++.” _GDB Online Debugger_, www.onlinegdb.com/. Accessed 24 Jul. 2025. 
