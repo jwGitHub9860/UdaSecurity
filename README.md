@@ -184,6 +184,8 @@ James, and Gabriel Belingueres. “How to Find out Which Dependencies Need to Be
 
 Jason, and HJW. “What Archetype to Choose for a Simple Java Project.” Edited by Mustafa Özçetin and Rogerdpack, _Stack Overflow_, 23 Aug. 2011, stackoverflow.com/questions/7158348/what-archetype-to-choose-for-a-simple-java-project. Accessed 25 Jul. 2025.
 
+Jenkov, Jakob. “Java Modules.” _Jenkov.Com Tech & Media Labs - Resources for Developers, IT Architects and Technopreneurs_, jenkov.com/tutorials/java/modules.html. Accessed 30 Jul. 2025.
+
 “JUnit » 4.13.2.” _MVN REPOSITORY_, mvnrepository.com/artifact/junit/junit/4.13.2. Accessed 30 Jul. 2025.
 
 “JUnit Jupiter API » 5.7.0.” _MVN REPOSITORY_, mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api/5.7.0. Accessed 25 Jul. 2025.
