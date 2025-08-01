@@ -1,5 +1,8 @@
 package com.udacity.catpoint;
 
+import com.udacity.catpoint.data.AlarmStatus;
+import com.udacity.catpoint.data.ArmingStatus;
+import com.udacity.catpoint.data.Sensor;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -9,6 +12,9 @@ import junit.framework.TestSuite;
  */
 public class SecurityServiceTest extends TestCase
 {
+    private AlarmStatus alarmStatus;
+    private ArmingStatus armingStatus;
+
     /**
      * Create the test case
      *
