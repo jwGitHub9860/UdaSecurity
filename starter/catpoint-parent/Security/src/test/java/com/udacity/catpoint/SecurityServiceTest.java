@@ -20,7 +20,7 @@ public class SecurityServiceTest extends TestCase
      *
      * @param testName name of the test case
      */
-    public SecurityServiceTest(String testName )
+    public SecurityServiceTest(AlarmStatus alarmStatus, ArmingStatus armingStatus)
     {
         super( testName );
     }
