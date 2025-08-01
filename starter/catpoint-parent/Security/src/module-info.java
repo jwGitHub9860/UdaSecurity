@@ -1,4 +1,4 @@
 module Security {
-    // Exports "com.google.common" Package to Allow other Modules in "Security" Child Module Access to "com.google.common" Package
-    exports com.google.common;
+    // Requires ALL Files in "Security" Child Module TO HAVE ACCESS TO "com.google.common" Package
+    requires com.google.common;
 }
