@@ -1,4 +1,4 @@
 module GUI {
-    // Exports "net.miginfocom.swing.MigLayout" Package to Allow other Modules in "GUI" Child Module Access to "net.miginfocom.swing.MigLayout" Package
-    exports net.miginfocom.swing.MigLayout;
+    // Requires ALL Files in "GUI" Child Module TO HAVE ACCESS TO "net.miginfocom.swing.MigLayout" Package
+    requires net.miginfocom.swing.MigLayout;
 }
