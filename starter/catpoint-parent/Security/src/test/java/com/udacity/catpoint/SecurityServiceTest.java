@@ -26,7 +26,7 @@ public class SecurityServiceTest extends TestCase
 
     // Declares Testing Variable Used to Construct "SecurityServiceTest"
     @Mock
-    private ArmingStatus imageService;
+    private ImageService imageService; // "ImageService" - Mock Class
 
     // Declares Testing Variable Used to Construct "SecurityServiceTest"
     @Mock
