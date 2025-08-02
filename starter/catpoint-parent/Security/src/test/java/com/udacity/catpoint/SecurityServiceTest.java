@@ -40,4 +40,8 @@ public class SecurityServiceTest extends TestCase
     {
         assertTrue( true );
     }
+
+    // Tests if Alarm is Armed & a Sensor Becomes Activated, Puts System Into Pending Alarm Status if BOTH Conditions are Met
+    @org.junit.Test // NEEDS Annotation Type or Error Will Occur
+    public void IsAlarmArmedAndSensorActivated() {}
 }
