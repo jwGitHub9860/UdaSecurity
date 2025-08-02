@@ -15,6 +15,9 @@ public class SecurityServiceTest extends TestCase
     private AlarmStatus alarmStatus;
     private ArmingStatus armingStatus;
 
+    // Allows User Input to be Read in ALL Methods WITHIN "CustomerService" class
+    SecurityService securityService = new SecurityService(null, null);
+
     /**
      * Create the test case
      *
