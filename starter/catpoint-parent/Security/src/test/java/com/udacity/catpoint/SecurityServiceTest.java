@@ -1,6 +1,7 @@
 package com.udacity.catpoint;
 
 import com.udacity.catpoint.data.*;
+import com.udacity.catpoint.service.FakeImageService;
 import com.udacity.catpoint.service.SecurityService;
 import junit.framework.Test;
 import junit.framework.TestCase;
@@ -26,7 +27,7 @@ public class SecurityServiceTest extends TestCase
 
     // Declares Testing Variable Used to Construct "SecurityServiceTest"
     @Mock
-    private ImageService imageService; // "ImageService" - Mock Class
+    private FakeImageService imageService; // "FakeImageService" - Mock Class
 
     // Declares Testing Variable Used to Construct "SecurityServiceTest"
     @Mock
