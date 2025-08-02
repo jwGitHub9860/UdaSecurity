@@ -168,6 +168,8 @@ ayush. “Udasecurity: Splitting the App.” _Knowledge_, Udacity, 2022, knowled
 
 Azaw. “ Spilt the Security Service and Image Service into Modules in NEW Project?” _Knowledge_, Udacity, 2022, knowledge.udacity.com/questions/838167. Accessed 25 Jul. 2025.
 
+Casey, Jerome LacosteJohn. “Usage.” _Apache Maven Project_, 29 Jan. 2006, maven.apache.org/plugins/maven-deploy-plugin/usage.html#:~:text=To%20enable%20this%20mojo%20to,a%20set%20of%20related%20projects. Accessed 1 Aug. 2025.
+
 “Deploy:Deploy.” _Apache Maven Deploy Plugin – Deploy:Deploy_, maven.apache.org/plugins/maven-deploy-plugin/deploy-mojo.html#:~:text=. Accessed 1 Aug. 2025.
 
 dnim. “IntelliJ IDEA: ‘Indexed Maven Repositories’ List - How to Add Remote Maven Repository in This List?” Edited by Shawn Chin and Om-nom-nom, _Stack Overflow_, 16 Nov. 2011, stackoverflow.com/questions/8150535/intellij-idea-indexed-maven-repositories-list-how-to-add-remote-maven-repos/58556678. Accessed 28 Jul. 2025.
