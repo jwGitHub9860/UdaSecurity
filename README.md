@@ -238,6 +238,8 @@ UAnjali. “Udacity/Cd0384-Java-Application-Deployment-Projectstarter.” _GitHu
 
 Walter, Newton. “Mastering the Module-Info.Java File in Java.” _Chronon Systems_, 7 Mar. 2023, chrononsystems.com/blog/module-info-java-file/. Accessed 30 Jul. 2025.
 
+Wikituby. “Deployment Failed: Repository Element Was Not Specified in the POM inside distributionManagement.” _YouTube_, YouTube, 1 May 2023, www.youtube.com/watch?v=eGpJ36NKcCE. Accessed 1 Aug. 2025.
+
 zoran119. “New Lines inside Paragraph in README.Md.” Edited by Yivi, _Stack Overflow_, 4 July 2014, stackoverflow.com/questions/24575680/new-lines-inside-paragraph-in-readme-md. Accessed 24 Jul. 2025.
 
 Zyl, Jason van, and Brian Fox. “Introduction to Repositories.” _Apache Maven Project_, Maven, 13 May 2008, maven.apache.org/guides/introduction/introduction-to-repositories.html. Accessed 28 Jul. 2025.
