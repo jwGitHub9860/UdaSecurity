@@ -41,7 +41,7 @@ public class SecurityServiceTest extends TestCase
     final PretendDatabaseSecurityRepositoryImpl pretendDatabaseSecurityRepository = new PretendDatabaseSecurityRepositoryImpl();
 
     // Allows Methods from "SecurityService.java" to be Accessed by ALL Methods WITHIN "SecurityServiceTest" class
-    final SecurityService securityService = new SecurityService(null, null); // CAN USE "null" as Constructor Input to Call Constructor
+    final SecurityService securityService = new SecurityService(securityRepository, imageService);
 
     // Allows Methods from "Sensor.java" to be Accessed by ALL Methods WITHIN "SecurityServiceTest" class
     final Sensor sensor = new Sensor(null, null); // CAN USE "null" as Constructor Input to Call Constructor
