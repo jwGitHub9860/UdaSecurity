@@ -107,4 +107,12 @@
       </plugins>
     </pluginManagement>
   </build>
+
+  <distributionManagement>
+    <repository>
+      <id>internal.repo</id>
+      <name>Internal Repository</name>
+      <url>https://github.com/jwGitHub9860/UdaSecurity.git</url>
+    </repository>
+  </distributionManagement>
 </project>
