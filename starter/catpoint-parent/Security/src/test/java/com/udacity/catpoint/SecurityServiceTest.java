@@ -16,8 +16,8 @@ public class SecurityServiceTest extends TestCase
     private AlarmStatus alarmStatus;
     private ArmingStatus armingStatus;
 
-    // Allows User Input to be Read in ALL Methods WITHIN "CustomerService" class
-    SecurityService securityService = new SecurityService(null, null); // CAN USE "null" as Constructor Input to Call Constructor
+    // Allows Methods from "SecurityService.java" to be Accessed by ALL Methods WITHIN "SecurityServiceTest" class
+    final SecurityService securityService = new SecurityService(null, null); // CAN USE "null" as Constructor Input to Call Constructor
 
     /**
      * Create the test case
