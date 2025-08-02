@@ -204,6 +204,8 @@ Mirchevski, Bruno. “17 Maven Commands and Options [Cheat Sheet].” _VPSServer
 
 “Mockito Core » 3.6.0.” _MVN REPOSITORY_, mvnrepository.com/artifact/org.mockito/mockito-core/3.6.0. Accessed 25 Jul. 2025.
 
+“Mockito JUnit Jupiter » 3.6.0.” _MVN REPOSITORY_, mvnrepository.com/artifact/org.mockito/mockito-junit-jupiter/3.6.0. Accessed 2 Aug. 2025.
+
 “Multi-Module Project With Spring Boot.” _GeeksforGeeks_, GeeksforGeeks, 23 July 2025, www.geeksforgeeks.org/java/multi-module-project-with-spring-boot/. Accessed 25 Jul. 2025.
 
 “Net.Miginfocom.Swing.MigLayout Maven / Gradle / Ivy.” _JAR Search and Dependency Download from the Maven Repository_, jar-download.com/artifacts/com.miglayout/miglayout-swing/5.2/source-code/net/miginfocom/swing/MigLayout.java. Accessed 28 Jul. 2025.
