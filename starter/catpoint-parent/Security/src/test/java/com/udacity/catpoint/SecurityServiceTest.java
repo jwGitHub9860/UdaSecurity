@@ -8,6 +8,10 @@ import com.udacity.catpoint.service.SecurityService;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
+import org.junit.jupiter.api.extension.ExtendWith;
+
+// Attaches "Mockito" Extension to JUnit Test Runner
+@ExtendWith(MockitoExtension.class)
 
 /**
  * Unit test for simple App.
