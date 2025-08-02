@@ -30,7 +30,7 @@ public class SecurityServiceTest extends TestCase
 
     // Declares Testing Variable Used to Construct "SecurityServiceTest"
     @Mock
-    private AlarmStatus name;
+    private String name;
 
     // Declares Testing Variable Used to Construct "SecurityServiceTest"
     @Mock
