@@ -1,9 +1,6 @@
 package com.udacity.catpoint;
 
-import com.udacity.catpoint.data.AlarmStatus;
-import com.udacity.catpoint.data.ArmingStatus;
-import com.udacity.catpoint.data.PretendDatabaseSecurityRepositoryImpl;
-import com.udacity.catpoint.data.Sensor;
+import com.udacity.catpoint.data.*;
 import com.udacity.catpoint.service.SecurityService;
 import junit.framework.Test;
 import junit.framework.TestCase;
@@ -37,7 +34,7 @@ public class SecurityServiceTest extends TestCase
 
     // Declares Testing Variable Used to Construct "SecurityServiceTest"
     @Mock
-    private ArmingStatus sensorType;
+    private SensorType sensorType; // "SensorType" - Mock Class
 
     // Allows Methods from "PretendDatabaseSecurityRepositoryImpl.java" to be Accessed by ALL Methods WITHIN "SecurityServiceTest" class
     final PretendDatabaseSecurityRepositoryImpl pretendDatabaseSecurityRepository = new PretendDatabaseSecurityRepositoryImpl();
