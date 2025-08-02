@@ -22,7 +22,7 @@ public class SecurityServiceTest extends TestCase
 
     // Declares Testing Variable Used to Construct "SecurityServiceTest"
     @Mock
-    private AlarmStatus securityRepository;
+    private SecurityRepository securityRepository; // "SecurityRepository" - Mock Class
 
     // Declares Testing Variable Used to Construct "SecurityServiceTest"
     @Mock
