@@ -42,6 +42,5 @@ public class SecurityServiceTest extends TestCase
     }
 
     // Tests if Alarm is Armed & a Sensor Becomes Activated, Puts System Into Pending Alarm Status if BOTH Conditions are Met
-    @org.junit.Test // NEEDS Annotation Type or Error Will Occur
-    public void IsAlarmArmedAndSensorActivated() {}
+    public void IsAlarmArmedAndSensorActivated() {} // "@Test" is NOT NEEDED Because "SecurityServiceTest" Already Extends To "TestCase"
 }
