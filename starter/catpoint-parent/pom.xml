@@ -61,6 +61,8 @@
       <scope>test</scope>
     </dependency>
 
+    <!-- Mockito Core - Mockito JUnit 5 support -->
+    <!-- Defines "MockitoExtension" inside "SecurityServiceTest.java" Java File inside "Security" Child Module -->
     <dependency>
       <groupId>org.mockito</groupId>
       <artifactId>mockito-junit-jupiter</artifactId>
