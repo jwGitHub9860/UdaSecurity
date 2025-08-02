@@ -235,3 +235,5 @@ Walter, Newton. “Mastering the Module-Info.Java File in Java.” _Chronon Syst
 zoran119. “New Lines inside Paragraph in README.Md.” Edited by Yivi, _Stack Overflow_, 4 July 2014, stackoverflow.com/questions/24575680/new-lines-inside-paragraph-in-readme-md. Accessed 24 Jul. 2025.
 
 Zyl, Jason van, and Brian Fox. “Introduction to Repositories.” _Apache Maven Project_, Maven, 13 May 2008, maven.apache.org/guides/introduction/introduction-to-repositories.html. Accessed 28 Jul. 2025.
+
+Zyl, Jason van. “Setting up Multiple Repositories.” _Apache Maven Project_, 12 Oct. 2005, maven.apache.org/guides/mini/guide-multiple-repositories.html. Accessed 1 Aug. 2025.
