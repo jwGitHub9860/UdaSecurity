@@ -202,6 +202,8 @@ Jenkov, Jakob. “Java Modules.” _Jenkov.Com Tech & Media Labs - Resources for
 
 “Maven. Repositories.” _IntelliJ IDEA Help_, IntelliJ IDEA, 23 Oct. 2024, www.jetbrains.com/help/idea/maven-repositories.html. Accessed 28 Jul. 2025.
 
+“Maven.” _Apache Maven Project_, maven.apache.org/ref/3.6.3/maven-model/maven.html#class_distributionManagement. Accessed 1 Aug. 2025.
+
 McCalley, Austin. “Google GSON Dependency Not Found.” _Stack Overflow_, 8 Jan. 2017, stackoverflow.com/questions/41539209/google-gson-dependency-not-found/41539256. Accessed 28 Jul. 2025.
 
 “Mig Layout.” _Java Graphics - MigLayout_, quarkphysics.ca/ICS4U1/unit4-graphics/MigLayout.html. Accessed 28 Jul. 2025.
