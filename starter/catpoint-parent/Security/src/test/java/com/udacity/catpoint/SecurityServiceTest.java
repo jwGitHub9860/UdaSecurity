@@ -52,5 +52,8 @@ public class SecurityServiceTest extends TestCase
     public void IsAlarmArmedAndSensorActivated() { // "@Test" is NOT NEEDED Because "SecurityServiceTest" Already Extends To "TestCase"
         // Checks if Alarm is Armed
         if (!(securityService.getArmingStatus() == ArmingStatus.DISARMED)) {
+            // Checks if Sensor Becomes Activated
+            if (sensor.getActive()) {
+        }
     }
 }
