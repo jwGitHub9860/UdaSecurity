@@ -9,6 +9,7 @@ import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 // Attaches "Mockito" Extension to JUnit Test Runner
@@ -21,6 +22,18 @@ public class SecurityServiceTest extends TestCase
 {
     private AlarmStatus alarmStatus;
     private ArmingStatus armingStatus;
+
+    @Mock
+    private AlarmStatus securityRepository;
+
+    @Mock
+    private ArmingStatus imageService;
+
+    @Mock
+    private AlarmStatus name;
+
+    @Mock
+    private ArmingStatus sensorType;
 
     // Allows Methods from "PretendDatabaseSecurityRepositoryImpl.java" to be Accessed by ALL Methods WITHIN "SecurityServiceTest" class
     final PretendDatabaseSecurityRepositoryImpl pretendDatabaseSecurityRepository = new PretendDatabaseSecurityRepositoryImpl();
