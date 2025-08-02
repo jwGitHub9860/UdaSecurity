@@ -44,7 +44,7 @@ public class SecurityServiceTest extends TestCase
     final SecurityService securityService = new SecurityService(securityRepository, imageService);
 
     // Allows Methods from "Sensor.java" to be Accessed by ALL Methods WITHIN "SecurityServiceTest" class
-    final Sensor sensor = new Sensor(null, null); // CAN USE "null" as Constructor Input to Call Constructor
+    final Sensor sensor = new Sensor(name, sensorType);
 
     /**
      * Create the test case
