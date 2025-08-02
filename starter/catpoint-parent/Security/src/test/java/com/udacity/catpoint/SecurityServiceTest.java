@@ -2,6 +2,7 @@ package com.udacity.catpoint;
 
 import com.udacity.catpoint.data.AlarmStatus;
 import com.udacity.catpoint.data.ArmingStatus;
+import com.udacity.catpoint.data.PretendDatabaseSecurityRepositoryImpl;
 import com.udacity.catpoint.data.Sensor;
 import com.udacity.catpoint.service.SecurityService;
 import junit.framework.Test;
@@ -15,6 +16,9 @@ public class SecurityServiceTest extends TestCase
 {
     private AlarmStatus alarmStatus;
     private ArmingStatus armingStatus;
+
+    // Allows Methods from "PretendDatabaseSecurityRepositoryImpl.java" to be Accessed by ALL Methods WITHIN "SecurityServiceTest" class
+    final PretendDatabaseSecurityRepositoryImpl pretendDatabaseSecurityRepository = new PretendDatabaseSecurityRepositoryImpl();
 
     // Allows Methods from "SecurityService.java" to be Accessed by ALL Methods WITHIN "SecurityServiceTest" class
     final SecurityService securityService = new SecurityService(null, null); // CAN USE "null" as Constructor Input to Call Constructor
@@ -52,7 +56,7 @@ public class SecurityServiceTest extends TestCase
     public void IsAlarmArmedAndSensorActivated() { // "@Test" is NOT NEEDED Because "SecurityServiceTest" Already Extends To "TestCase"
         // Checks if Alarm is Armed
         if (!(securityService.getArmingStatus() == ArmingStatus.DISARMED)) {
-            // Checks if Sensor Becomes Activated
+            // Checks if a Sensor Becomes Activated
             if (sensor.getActive()) {
         }
     }
