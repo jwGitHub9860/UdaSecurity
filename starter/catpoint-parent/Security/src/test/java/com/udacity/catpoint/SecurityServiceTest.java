@@ -159,4 +159,7 @@ public class SecurityServiceTest extends TestCase
      * Reset ALL Sensors to Inactive if Condition is Met
      */
     public void testIsSystemArmed() {
+        // Checks if System is Armed
+        if (!(securityService.getArmingStatus() == ArmingStatus.DISARMED)) {
+    }
 }
