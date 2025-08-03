@@ -192,6 +192,8 @@ H, Kevin. “Use the pluginManagement Tag in the Parent Pom to Set the Latest Ve
 
 “Introduction to Remote Repositories.” _Introduction to Remote Repositories | Learn Git Ebook (CLI Edition)_, www.git-tower.com/learn/git/ebook/en/command-line/remote-repositories/introduction#:~:text=Local%20repositories%20reside%20on%20the,or%20on%20a%20local%20network. Accessed 28 Jul. 2025.
 
+“Iterating over Enum Values in Java.” _GeeksforGeeks_, GeeksforGeeks, 11 July 2025, www.geeksforgeeks.org/java/iterating-over-enum-values-in-java/. Accessed 3 Aug. 2025.
+
 James, and Gabriel Belingueres. “How to Find out Which Dependencies Need to Be Included?” _Stack Overflow_, 24 Nov. 2011, stackoverflow.com/questions/8262540/how-to-find-out-which-dependencies-need-to-be-included. Accessed 24 Jul. 2025.
 
 Jason, and HJW. “What Archetype to Choose for a Simple Java Project.” Edited by Mustafa Özçetin and Rogerdpack, _Stack Overflow_, 23 Aug. 2011, stackoverflow.com/questions/7158348/what-archetype-to-choose-for-a-simple-java-project. Accessed 25 Jul. 2025.
