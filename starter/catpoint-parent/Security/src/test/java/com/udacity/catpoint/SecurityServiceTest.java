@@ -149,5 +149,8 @@ public class SecurityServiceTest extends TestCase
      * Test Case that Tests if System is Disarmed
      * Set Alarm Status to No Alarm if Condition is Met
      */
-    public void testIsSystemDisarmed() {}
+    public void testIsSystemDisarmed() {
+        // Calls "setArmingStatus" Method to Test if Alarm Status will be Set to No Alarm IF System is Disarmed
+        securityService.setArmingStatus(ArmingStatus.DISARMED);
+    }
 }
