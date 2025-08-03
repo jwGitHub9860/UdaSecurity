@@ -95,6 +95,9 @@ public class SecurityServiceTest extends TestCase
             if (sensor.getActive()) {
                 // Checks if System is already Pending Alarm
                 if (securityService.getAlarmStatus() == AlarmStatus.PENDING_ALARM) {
+                    // Sets Alarm Status to Alarm
+                    pretendDatabaseSecurityRepository.setAlarmStatus(AlarmStatus.ALARM);
+                }
             }
         }
     }
