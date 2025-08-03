@@ -88,5 +88,8 @@ public class SecurityServiceTest extends TestCase
     public AlarmStatus isPendingAlarmAndAllSensorsInactive() {
         // Checks if Alarm Status is Pending
         if (securityService.getAlarmStatus() == AlarmStatus.PENDING_ALARM) {
+            // Checks if Pending Alarm is Inactive OR Disarmed
+            if (securityService.getArmingStatus() == ArmingStatus.DISARMED) {
+        }
     }
 }
