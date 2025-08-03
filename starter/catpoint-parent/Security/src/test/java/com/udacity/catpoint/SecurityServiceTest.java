@@ -73,7 +73,7 @@ public class SecurityServiceTest extends TestCase
     }
 
     // Tests if Alarm is Armed & a Sensor Becomes Activated, Puts System Into Pending Alarm Status if BOTH Conditions are Met
-    public void isAlarmArmedAndSensorActivated() { // "@Test" is NOT NEEDED Because "SecurityServiceTest" Already Extends To "TestCase"
+    public void testIsAlarmArmedAndSensorActivated() { // "@Test" is NOT NEEDED Because "SecurityServiceTest" Already Extends To "TestCase"
         // Checks if Alarm is Armed
         if (!(securityService.getArmingStatus() == ArmingStatus.DISARMED)) {
             // Checks if a Sensor Becomes Activated
@@ -88,7 +88,7 @@ public class SecurityServiceTest extends TestCase
      * Test Case that Tests if Alarm is Armed & A Sensor Becomes Activated & System is already Pending Alarm
      * Sets Alarm Status to Alarm, if ALL Conditions are Met
      */
-    public void isAlarmArmedAndSensorActivatedAndSystemPendingAlarm() {
+    public void testIsAlarmArmedAndSensorActivatedAndSystemPendingAlarm() {
         // Checks if Alarm is Armed
         if (!(securityService.getArmingStatus() == ArmingStatus.DISARMED)) {
             // Checks if a Sensor Becomes Activated
@@ -108,7 +108,7 @@ public class SecurityServiceTest extends TestCase
      *
      * @return - Returns Alarm Status in No Alarm State if ALL Conditions are Met
      */
-    public AlarmStatus isPendingAlarmAndAllSensorsInactive() {
+    public AlarmStatus testIsPendingAlarmAndAllSensorsInactive() {
         // Checks if Alarm Status is Pending
         if (securityService.getAlarmStatus() == AlarmStatus.PENDING_ALARM) {
             // Checks if Pending Alarm is Inactive OR Disarmed
