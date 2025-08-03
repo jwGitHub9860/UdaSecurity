@@ -161,5 +161,8 @@ public class SecurityServiceTest extends TestCase
     public void testIsSystemArmed() {
         // Checks if System is Armed
         if (!(securityService.getArmingStatus() == ArmingStatus.DISARMED)) {
+            // Iterates Through Set of Sensors
+            for (Set<Sensor> sensorSet : securityService.getSensors()) {
+        }
     }
 }
