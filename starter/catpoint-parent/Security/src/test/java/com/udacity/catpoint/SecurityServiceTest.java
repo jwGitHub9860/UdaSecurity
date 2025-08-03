@@ -104,9 +104,7 @@ public class SecurityServiceTest extends TestCase
 
     /**
      * Test Case that Tests if Pending Alarm & All Sensors are Inactive
-     *
-     *
-     * @return - Returns Alarm Status in No Alarm State if ALL Conditions are Met
+     * Sets Alarm Status to No Alarm State if ALL Conditions are Met
      */
     public void testIsPendingAlarmAndAllSensorsInactive() {
         // Checks if Alarm Status is Pending
