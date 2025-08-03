@@ -89,6 +89,9 @@ public class SecurityServiceTest extends TestCase
      * Sets Alarm Status to Alarm, if ALL Conditions are Met
      */
     public void isAlarmArmedAndSensorActivatedAndSystemPendingAlarm() {
+        // Checks if Alarm is Armed
+        if (!(securityService.getArmingStatus() == ArmingStatus.DISARMED)) {
+    }
 
     /**
      * Test Case that Tests if Pending Alarm & All Sensors are Inactive
