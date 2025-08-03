@@ -126,5 +126,8 @@ public class SecurityServiceTest extends TestCase
     public void testIsAlarmStillActiveWhileSensorStateChanges() {
         // Checks if Alarm Status is Active
         if (securityService.getAlarmStatus() == AlarmStatus.ALARM) {
+            // Iterates Through "SensorType" Enum
+            for (SensorType sensorType : SensorType.values()) {
+        }
     }
 }
