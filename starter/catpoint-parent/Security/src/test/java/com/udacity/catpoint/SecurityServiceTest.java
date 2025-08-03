@@ -120,4 +120,9 @@ public class SecurityServiceTest extends TestCase
         // Returns "null" if Alarm is NOT Pending & All Sensors are NOT Inactive
         return null;
     }
+
+    /**
+     * Test Case that Tests if Alarm is Active, Sensor State will Change but NOT Alarm State (Alarm STAYS Active)
+     */
+    public void testIsAlarmStillActiveWhileSensorStateChanges() {}
 }
