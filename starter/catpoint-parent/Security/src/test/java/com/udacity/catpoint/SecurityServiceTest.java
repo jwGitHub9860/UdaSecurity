@@ -93,6 +93,9 @@ public class SecurityServiceTest extends TestCase
         if (!(securityService.getArmingStatus() == ArmingStatus.DISARMED)) {
             // Checks if a Sensor Becomes Activated
             if (sensor.getActive()) {
+                // Checks if System is already Pending Alarm
+                if (securityService.getAlarmStatus() == AlarmStatus.PENDING_ALARM) {
+            }
         }
     }
 
