@@ -85,6 +85,12 @@ public class SecurityServiceTest extends TestCase
     }
 
     /**
+     * Test Case that Tests if Alarm is Armed & A Sensor Becomes Activated & System is already Pending Alarm
+     * Sets Alarm Status to Alarm, if ALL Conditions are Met
+     */
+    public void isAlarmArmedAndSensorActivatedAndSystemPendingAlarm() {
+
+    /**
      * Test Case that Tests if Pending Alarm & All Sensors are Inactive
      *
      *
