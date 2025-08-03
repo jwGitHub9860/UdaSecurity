@@ -137,4 +137,10 @@ public class SecurityServiceTest extends TestCase
             }
         }
     }
+
+    /**
+     * Test Case that Tests if A Sensor is Activated while Already Active & System is in Pending State
+     * Change Alarm Status to Alarm State
+     */
+    public void testIsSensorActiveWhileAlreadyActiveAndSystemInPendingState() {}
 }
