@@ -84,13 +84,18 @@ public class SecurityServiceTest extends TestCase
         }
     }
 
-    // Tests if Pending Alarm & All Sensors are Inactive, Returns Alarm Status to No Alarm State if ALL Conditions are Met
+    /**
+     * Test Case that Tests if Pending Alarm & All Sensors are Inactive
+     *
+     *
+     * @return - Returns Alarm Status in No Alarm State if ALL Conditions are Met
+     */
     public AlarmStatus isPendingAlarmAndAllSensorsInactive() {
         // Checks if Alarm Status is Pending
         if (securityService.getAlarmStatus() == AlarmStatus.PENDING_ALARM) {
             // Checks if Pending Alarm is Inactive OR Disarmed
             if (securityService.getArmingStatus() == ArmingStatus.DISARMED) {
-                // Returns "AlarmStatus" to No Alarm State
+                // Returns "AlarmStatus" in No Alarm State
                 return AlarmStatus.NO_ALARM;
             }
         }
