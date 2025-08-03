@@ -212,6 +212,8 @@ Jenkov, Jakob. “Java Modules.” _Jenkov.Com Tech & Media Labs - Resources for
 
 McCalley, Austin. “Google GSON Dependency Not Found.” _Stack Overflow_, 8 Jan. 2017, stackoverflow.com/questions/41539209/google-gson-dependency-not-found/41539256. Accessed 28 Jul. 2025.
 
+Meyer, Nick. “A For-Loop to Iterate over an Enum in Java.” Edited by Mateen Ulhaq, _Stack Overflow_, 9 July 2009, stackoverflow.com/questions/1104975/a-for-loop-to-iterate-over-an-enum-in-java. Accessed 3 Aug. 2025.
+
 “Mig Layout.” _Java Graphics - MigLayout_, quarkphysics.ca/ICS4U1/unit4-graphics/MigLayout.html. Accessed 28 Jul. 2025.
 
 Mirchevski, Bruno. “17 Maven Commands and Options [Cheat Sheet].” _VPSServer.Com_, 27 Sept. 2023, www.vpsserver.com/maven-commands-and-options/. Accessed 24 Jul. 2025.
