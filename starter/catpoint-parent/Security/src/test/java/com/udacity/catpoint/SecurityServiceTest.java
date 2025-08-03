@@ -91,6 +91,9 @@ public class SecurityServiceTest extends TestCase
     public void isAlarmArmedAndSensorActivatedAndSystemPendingAlarm() {
         // Checks if Alarm is Armed
         if (!(securityService.getArmingStatus() == ArmingStatus.DISARMED)) {
+            // Checks if a Sensor Becomes Activated
+            if (sensor.getActive()) {
+        }
     }
 
     /**
