@@ -130,6 +130,8 @@ public class SecurityServiceTest extends TestCase
             for (SensorType sensorType : SensorType.values()) {
                 // Sets Sensor Type to "sensorType"
                 sensor.setSensorType(sensorType);
+                // Checks if Alarm Status is STILL Active
+                if (!(securityService.getAlarmStatus() == AlarmStatus.ALARM)) {
             }
         }
     }
