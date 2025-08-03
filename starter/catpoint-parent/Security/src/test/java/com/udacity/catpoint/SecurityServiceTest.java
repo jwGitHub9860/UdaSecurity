@@ -108,7 +108,7 @@ public class SecurityServiceTest extends TestCase
      *
      * @return - Returns Alarm Status in No Alarm State if ALL Conditions are Met
      */
-    public AlarmStatus testIsPendingAlarmAndAllSensorsInactive() {
+    public void testIsPendingAlarmAndAllSensorsInactive() {
         // Checks if Alarm Status is Pending
         if (securityService.getAlarmStatus() == AlarmStatus.PENDING_ALARM) {
             // Checks if Pending Alarm is Inactive OR Disarmed
