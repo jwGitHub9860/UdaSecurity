@@ -5,6 +5,7 @@ import com.udacity.catpoint.service.FakeImageService;
 import com.udacity.catpoint.service.SecurityService;
 import junit.framework.Test;
 import junit.framework.TestCase;
+import junit.framework.TestResult;
 import junit.framework.TestSuite;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
@@ -140,7 +141,13 @@ public class SecurityServiceTest extends TestCase
 
     /**
      * Test Case that Tests if A Sensor is Activated while Already Active & System is in Pending State
-     * Change Alarm Status to Alarm State
+     * Change Alarm Status to Alarm State (5. TEST CASE)
      */
     public void testIsSensorActiveWhileAlreadyActiveAndSystemInPendingState() {}
+
+    /**
+     * Test Case that Tests if System is Disarmed
+     * Set Alarm Status to No Alarm if Condition is Met
+     */
+    public void testIsSystemDisarmed() {}
 }
