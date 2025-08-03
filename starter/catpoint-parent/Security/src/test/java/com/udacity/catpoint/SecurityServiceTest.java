@@ -128,6 +128,9 @@ public class SecurityServiceTest extends TestCase
         if (securityService.getAlarmStatus() == AlarmStatus.ALARM) {
             // Iterates Through "SensorType" Enum
             for (SensorType sensorType : SensorType.values()) {
+                // Sets Sensor Type to "sensorType"
+                sensor.setSensorType(sensorType);
+            }
         }
     }
 }
