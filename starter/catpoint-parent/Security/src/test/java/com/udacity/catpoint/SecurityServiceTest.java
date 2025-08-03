@@ -94,5 +94,7 @@ public class SecurityServiceTest extends TestCase
                 return AlarmStatus.NO_ALARM;
             }
         }
+        // Returns "null" if Alarm is NOT Pending & All Sensors are NOT Inactive
+        return null;
     }
 }
