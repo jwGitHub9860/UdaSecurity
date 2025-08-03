@@ -132,6 +132,8 @@ public class SecurityServiceTest extends TestCase
                 sensor.setSensorType(sensorType);
                 // Checks if Alarm Status is STILL Active
                 if (!(securityService.getAlarmStatus() == AlarmStatus.ALARM)) {
+                    throw new IllegalArgumentException("Alarm Status is NOT Active");
+                }
             }
         }
     }
