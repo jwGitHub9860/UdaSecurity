@@ -165,6 +165,9 @@ public class SecurityServiceTest extends TestCase
         if (!(securityService.getArmingStatus() == ArmingStatus.DISARMED)) {
             // Iterates Through Set of Sensors
             for (Sensor sensorSet : securityService.getSensors()) {
+                // Calls "setActive(Boolean active)" Method to Reset ALL Sensors to Inactive if Condition is Met
+                sensor.setActive(false);
+            }
         }
     }
 }
