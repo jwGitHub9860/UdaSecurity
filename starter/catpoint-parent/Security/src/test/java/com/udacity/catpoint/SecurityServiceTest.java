@@ -174,7 +174,7 @@ public class SecurityServiceTest extends TestCase
 
         // Iterates Through "inactiveSensors"
         for (Sensor sensor : inactiveSensors) {
-            // Checks if Sensor is Deactivated
+            // Checks if Sensor is Deactivated WHILE Already Inactive
             if (!sensor.getActive()) {
                 // Calls "setAlarmStatus(AlarmStatus status)" Method to Ensure NO CHANGES are Made to Alarm State
                 securityService.setAlarmStatus(initialAlarmState);
