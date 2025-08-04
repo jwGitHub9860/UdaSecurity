@@ -167,7 +167,7 @@ public class SecurityServiceTest extends TestCase
         for (Sensor sensor : securityService.getSensors()) {
             // Checks if Sensor is Already Inactive
             if (!sensor.getActive()) {
-
+                //
             }
         }
 
