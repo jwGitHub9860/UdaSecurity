@@ -172,10 +172,13 @@ public class SecurityServiceTest extends TestCase
             }
         }
 
-        // Checks if Sensor is Deactivated
-        if (!sensor.getActive()) {
-            // Calls "setAlarmStatus(AlarmStatus status)" Method to Ensure NO CHANGES are Made to Alarm State
-            securityService.setAlarmStatus(initialAlarmState);
+        // Iterates Through "inactiveSensors"
+        for (Sensor sensor : inactiveSensors) {
+            // Checks if Sensor is Deactivated
+            if (!sensor.getActive()) {
+                // Calls "setAlarmStatus(AlarmStatus status)" Method to Ensure NO CHANGES are Made to Alarm State
+                securityService.setAlarmStatus(initialAlarmState);
+            }
         }
     }
 
