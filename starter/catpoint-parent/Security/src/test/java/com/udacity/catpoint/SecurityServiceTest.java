@@ -11,6 +11,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
+import java.awt.image.BufferedImage;
 import java.util.Set;
 
 // Attaches "Mockito" Extension to JUnit Test Runner
@@ -170,4 +171,10 @@ public class SecurityServiceTest extends TestCase
             }
         }
     }
+
+    /**
+     * Test Case that Tests if System is Armed-Home WHILE Camera Shows Cat
+     * Set Alarm Status to Alarm if Condition is Met
+     */
+    public void testIsSystemArmedHomeWhileCameraShowsCat() {}
 }
