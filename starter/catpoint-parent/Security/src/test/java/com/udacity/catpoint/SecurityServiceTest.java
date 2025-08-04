@@ -153,8 +153,17 @@ public class SecurityServiceTest extends TestCase
      * Make NO CHANGES to Alarm State, if BOTH Conditions are Met
      */
     public void testIsSensorActiveWhileAlreadyInactive() {
+        // Obtains Initial Alarm State
+        AlarmStatus initialAlarmState = securityService.getAlarmStatus();
+
+        // Calls "setAlarmStatus(AlarmStatus status)" Method to Set Initial Alarm State
+        securityService.setAlarmStatus(initialAlarmState);
+
         // Iterates Through Set of Sensors
-        for (Sensor sensor : securityService.getSensors())
+        for (Sensor sensor : securityService.getSensors()) {
+            // Checks if Sensor is Already Inactive
+            if (!sensor.getActive()) {}
+        }
     }
 
     /**
