@@ -162,7 +162,10 @@ public class SecurityServiceTest extends TestCase
         // Iterates Through Set of Sensors
         for (Sensor sensor : securityService.getSensors()) {
             // Checks if Sensor is Already Inactive
-            if (!sensor.getActive()) {}
+            if (!sensor.getActive()) {
+                // Checks if Sensor is Deactivated
+                if (!sensor.getActive()) {}
+            }
         }
     }
 
