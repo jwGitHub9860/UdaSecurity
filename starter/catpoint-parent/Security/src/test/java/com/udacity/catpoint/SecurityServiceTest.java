@@ -174,7 +174,10 @@ public class SecurityServiceTest extends TestCase
 
     /**
      * Test Case that Tests if System is Armed-Home WHILE Camera Shows Cat
-     * Set Alarm Status to Alarm if Condition is Met
+     * Set Alarm Status to Alarm if Condition is Met (11. TEST CASE)          RETURN TO LATER
      */
-    public void testIsSystemArmedHomeWhileCameraShowsCat() {}
+    public void testIsSystemArmedHomeWhileCameraShowsCat() {
+        // Calls "processImage(BufferedImage currentCameraImage)" Method to Ensure Camera Shows Cat because "catDetected(Boolean cat)" Method is PRIVATE
+        securityService.processImage(BufferedImage test); // NEEDS TO BE FIXED
+    }
 }
