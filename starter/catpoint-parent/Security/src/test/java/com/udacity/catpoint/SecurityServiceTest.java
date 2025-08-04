@@ -152,7 +152,10 @@ public class SecurityServiceTest extends TestCase
      * Test Case that Tests if A Sensor is Deactivated WHILE Already Inactive
      * Make NO CHANGES to Alarm State, if BOTH Conditions are Met
      */
-    public void testIsSensorActiveWhileAlreadyInactive() {}
+    public void testIsSensorActiveWhileAlreadyInactive() {
+        // Iterates Through Set of Sensors
+        for (Sensor sensor : securityService.getSensors())
+    }
 
     /**
      * Test Case that Tests if System is Disarmed
