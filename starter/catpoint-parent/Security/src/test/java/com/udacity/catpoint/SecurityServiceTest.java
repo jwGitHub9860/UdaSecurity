@@ -12,6 +12,7 @@ import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.awt.image.BufferedImage;
+import java.util.HashSet;
 import java.util.Set;
 
 // Attaches "Mockito" Extension to JUnit Test Runner
@@ -158,6 +159,9 @@ public class SecurityServiceTest extends TestCase
 
         // Calls "setAlarmStatus(AlarmStatus status)" Method to Set Initial Alarm State
         securityService.setAlarmStatus(initialAlarmState);
+
+        // Creates "Set" to Hold Sensors that are Already Inactive
+        Set<Sensor> inactiveSensors = new HashSet<>();
 
         // Iterates Through Set of Sensors
         for (Sensor sensor : securityService.getSensors()) {
