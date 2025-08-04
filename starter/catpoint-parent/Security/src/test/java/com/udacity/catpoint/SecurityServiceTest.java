@@ -84,10 +84,13 @@ public class SecurityServiceTest extends TestCase
     public void testIsAlarmArmedAndSensorActivated() { // "@Test" is NOT NEEDED Because "SecurityServiceTest" Already Extends To "TestCase"
         // Checks if Alarm is Armed
         if (!(securityService.getArmingStatus() == ArmingStatus.DISARMED)) {
-            // Checks if a Sensor Becomes Activated
-            if (sensor.getActive()) {
-                // Puts System into Pending Alarm Status
-                pretendDatabaseSecurityRepository.setAlarmStatus(AlarmStatus.PENDING_ALARM);
+            // Iterates Through Set of Sensors
+            for (Sensor sensorSet : securityService.getSensors()) {
+                // Checks if a Sensor Becomes Activated
+                if (sensor.getActive()) {
+                    // Puts System into Pending Alarm Status
+                    pretendDatabaseSecurityRepository.setAlarmStatus(AlarmStatus.PENDING_ALARM);
+                }
             }
         }
     }
