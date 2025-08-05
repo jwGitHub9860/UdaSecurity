@@ -146,7 +146,10 @@ public class SecurityServiceTest extends TestCase
         // Iterates Through Set of Sensors
         for (Sensor singleSensor : pretendDatabaseSecurityRepository.getSensors()) {
             // Checks if Sensor is Activated
-            if (sensor.getActive())
+            if (sensor.getActive()) {
+                // Adds "singleSensor" to "activeSensors"
+                activeSensors.add(singleSensor);
+            }
         }
     }
 
