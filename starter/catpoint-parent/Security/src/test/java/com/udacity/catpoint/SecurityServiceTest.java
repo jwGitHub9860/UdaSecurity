@@ -213,7 +213,7 @@ public class SecurityServiceTest extends TestCase
         JFileChooser chooser = new JFileChooser();
 
         // Reads Image or Image File
-        BufferedImage image = ImageIO.read(chooser.getSelectedFile()); // "ImageIO.read()" - Reads Image & "getSelectedFile()" - Returns Selected File
+        BufferedImage image = null;
 
         // Calls "imageContainsCat(BufferedImage image, float confidenceThreshhold)" Method to Test if Image Contains Cat
         if (fakeImageService.imageContainsCat(image, 25.0f)) {
