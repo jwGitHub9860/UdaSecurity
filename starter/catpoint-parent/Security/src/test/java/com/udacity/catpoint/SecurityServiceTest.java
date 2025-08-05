@@ -28,14 +28,6 @@ public class SecurityServiceTest extends TestCase
 
     // Declares Testing Variable Used to Construct "SecurityServiceTest"
     @Mock
-    private SecurityRepository securityRepository; // "SecurityRepository" - Mock Class
-
-    // Declares Testing Variable Used to Construct "SecurityServiceTest"
-    @Mock
-    private FakeImageService imageService; // "FakeImageService" - Mock Class
-
-    // Declares Testing Variable Used to Construct "SecurityServiceTest"
-    @Mock
     private String name;
 
     // Declares Testing Variable Used to Construct "SecurityServiceTest"
