@@ -83,9 +83,9 @@ public class SecurityServiceTest extends TestCase
      */
     public void testIsAlarmArmedAndSensorActivated() { // "@Test" is NOT NEEDED Because "SecurityServiceTest" Already Extends To "TestCase"
         // Checks if Alarm is Armed
-        if (!(securityService.getArmingStatus() == ArmingStatus.DISARMED)) {
+        if (!(pretendDatabaseSecurityRepository.getArmingStatus() == ArmingStatus.DISARMED)) {
             // Iterates Through Set of Sensors
-            for (Sensor sensorSet : securityService.getSensors()) {
+            for (Sensor sensorSet : pretendDatabaseSecurityRepository.getSensors()) {
                 // Checks if a Sensor Becomes Activated
                 if (sensor.getActive()) {
                     // Calls "setAlarmStatus(AlarmStatus alarmStatus)" Method to Put System into Pending Alarm Status
@@ -101,11 +101,11 @@ public class SecurityServiceTest extends TestCase
      */
     public void testIsAlarmArmedAndSensorActivatedAndSystemPendingAlarm() {
         // Checks if Alarm is Armed
-        if (!(securityService.getArmingStatus() == ArmingStatus.DISARMED)) {
+        if (!(pretendDatabaseSecurityRepository.getArmingStatus() == ArmingStatus.DISARMED)) {
             // Checks if a Sensor Becomes Activated
             if (sensor.getActive()) {
                 // Checks if System is already Pending Alarm
-                if (securityService.getAlarmStatus() == AlarmStatus.PENDING_ALARM) {
+                if (pretendDatabaseSecurityRepository.getAlarmStatus() == AlarmStatus.PENDING_ALARM) {
                     // Calls "setAlarmStatus(AlarmStatus alarmStatus)" Method to Set Alarm Status to Alarm
                     pretendDatabaseSecurityRepository.setAlarmStatus(AlarmStatus.ALARM); // MUST USE "setAlarmStatus(AlarmStatus alarmStatus)" Method From "PretendDatabaseSecurityRepositoryImpl.java" TO BE ABLE TO RUN TEST CASE
                 }
@@ -119,11 +119,11 @@ public class SecurityServiceTest extends TestCase
      */
     public void testIsPendingAlarmAndAllSensorsInactive() {
         // Checks if Alarm Status is Pending
-        if (securityService.getAlarmStatus() == AlarmStatus.PENDING_ALARM) {
+        if (pretendDatabaseSecurityRepository.getAlarmStatus() == AlarmStatus.PENDING_ALARM) {
             // Checks if Pending Alarm is Inactive OR Disarmed
-            if (securityService.getArmingStatus() == ArmingStatus.DISARMED) {
-                // Sets "AlarmStatus" to No Alarm State
-                securityService.setAlarmStatus(AlarmStatus.NO_ALARM);
+            if (pretendDatabaseSecurityRepository.getArmingStatus() == ArmingStatus.DISARMED) {
+                // Calls "setAlarmStatus(AlarmStatus alarmStatus)" Method to Set "AlarmStatus" to No Alarm State
+                pretendDatabaseSecurityRepository.setAlarmStatus(AlarmStatus.NO_ALARM); // MUST USE "setAlarmStatus(AlarmStatus alarmStatus)" Method From "PretendDatabaseSecurityRepositoryImpl.java" TO BE ABLE TO RUN TEST CASE
             }
         }
     }
@@ -133,13 +133,13 @@ public class SecurityServiceTest extends TestCase
      */
     public void testIsAlarmStillActiveWhileSensorStateChanges() {
         // Checks if Alarm Status is Active
-        if (securityService.getAlarmStatus() == AlarmStatus.ALARM) {
+        if (pretendDatabaseSecurityRepository.getAlarmStatus() == AlarmStatus.ALARM) {
             // Iterates Through "SensorType" Enum
             for (SensorType sensorType : SensorType.values()) {
                 // Sets Sensor Type to "sensorType"
                 sensor.setSensorType(sensorType);
                 // Checks if Alarm Status is STILL Active
-                if (!(securityService.getAlarmStatus() == AlarmStatus.ALARM)) {
+                if (!(pretendDatabaseSecurityRepository.getAlarmStatus() == AlarmStatus.ALARM)) {
                     throw new IllegalArgumentException("Alarm Status is NOT Active");
                 }
             }
@@ -158,16 +158,16 @@ public class SecurityServiceTest extends TestCase
      */
     public void testIsSensorActiveWhileAlreadyInactive() {
         // Calls "getAlarmStatus()" Method to Obtain Initial Alarm State
-        AlarmStatus initialAlarmState = securityService.getAlarmStatus();
+        AlarmStatus initialAlarmState = pretendDatabaseSecurityRepository.getAlarmStatus(); // MUST USE "getAlarmStatus()" Method From "PretendDatabaseSecurityRepositoryImpl.java" TO BE ABLE TO RUN TEST CASE
 
-        // Calls "setAlarmStatus(AlarmStatus status)" Method to Set Initial Alarm State
-        securityService.setAlarmStatus(initialAlarmState);
+        // Calls "setAlarmStatus(AlarmStatus alarmStatus)" Method to Set Initial Alarm State
+        pretendDatabaseSecurityRepository.setAlarmStatus(initialAlarmState); // MUST USE "setAlarmStatus(AlarmStatus alarmStatus)" Method From "PretendDatabaseSecurityRepositoryImpl.java" TO BE ABLE TO RUN TEST CASE
 
         // Creates "Set" to Hold Sensors that are Already Inactive
         Set<Sensor> inactiveSensors = new HashSet<>();
 
         // Iterates Through Set of Sensors
-        for (Sensor sensor : securityService.getSensors()) {
+        for (Sensor sensor : pretendDatabaseSecurityRepository.getSensors()) {
             // Checks if Sensor is Already Inactive
             if (!sensor.getActive()) {
                 // Adds "sensor" to "inactiveSensors"
@@ -179,8 +179,8 @@ public class SecurityServiceTest extends TestCase
         for (Sensor sensor : inactiveSensors) {
             // Checks if Sensor is Deactivated WHILE Already Inactive
             if (!sensor.getActive()) {
-                // Calls "setAlarmStatus(AlarmStatus status)" Method to Ensure NO CHANGES are Made to Alarm State
-                securityService.setAlarmStatus(initialAlarmState);
+                // Calls "setAlarmStatus(AlarmStatus alarmStatus)" Method to Ensure NO CHANGES are Made to Alarm State
+                pretendDatabaseSecurityRepository.setAlarmStatus(initialAlarmState); // MUST USE "setAlarmStatus(AlarmStatus alarmStatus)" Method From "PretendDatabaseSecurityRepositoryImpl.java" TO BE ABLE TO RUN TEST CASE
             }
         }
     }
@@ -190,8 +190,8 @@ public class SecurityServiceTest extends TestCase
      * Set Alarm Status to No Alarm if Condition is Met
      */
     public void testIsSystemDisarmed() {
-        // Calls "setArmingStatus" Method to Test if Alarm Status will be Set to No Alarm IF System is Disarmed
-        securityService.setArmingStatus(ArmingStatus.DISARMED);
+        // Calls "setArmingStatus(ArmingStatus armingStatus)" Method to Test if Alarm Status will be Set to No Alarm IF System is Disarmed
+        pretendDatabaseSecurityRepository.setArmingStatus(ArmingStatus.DISARMED); // MUST USE "setArmingStatus(ArmingStatus armingStatus)" Method From "PretendDatabaseSecurityRepositoryImpl.java" TO BE ABLE TO RUN TEST CASE
     }
 
     /**
@@ -200,9 +200,9 @@ public class SecurityServiceTest extends TestCase
      */
     public void testIsSystemArmed() {
         // Checks if System is Armed
-        if (!(securityService.getArmingStatus() == ArmingStatus.DISARMED)) {
+        if (!(pretendDatabaseSecurityRepository.getArmingStatus() == ArmingStatus.DISARMED)) {
             // Iterates Through Set of Sensors
-            for (Sensor sensorSet : securityService.getSensors()) {
+            for (Sensor sensorSet : pretendDatabaseSecurityRepository.getSensors()) {
                 // Calls "setActive(Boolean active)" Method to Reset ALL Sensors to Inactive if Condition is Met
                 sensor.setActive(false);
             }
@@ -215,6 +215,6 @@ public class SecurityServiceTest extends TestCase
      */
     public void testIsSystemArmedHomeWhileCameraShowsCat() {
         // Calls "processImage(BufferedImage currentCameraImage)" Method to Ensure Camera Shows Cat because "catDetected(Boolean cat)" Method is PRIVATE
-        //securityService.processImage(BufferedImage test); // NEEDS TO BE FIXED
+        //pretendDatabaseSecurityRepository.processImage(BufferedImage test); // NEEDS TO BE FIXED
     }
 }
