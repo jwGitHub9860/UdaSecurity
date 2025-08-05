@@ -14,6 +14,7 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import javax.imageio.ImageIO; // defines "ImageIO"
 import javax.swing.*; // defines "JFileChooser"
 import java.awt.image.BufferedImage;
+import java.io.IOException;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -207,7 +208,7 @@ public class SecurityServiceTest extends TestCase
      * Test Case that Tests if Image Contains Cat WHILE System is Armed-Home
      * Put System into Alarm Status, if BOTH Conditions are Met
      */
-    public void testDoesImageContainCatWhileSystemArmedHome() {
+    public void testDoesImageContainCatWhileSystemArmedHome() throws IOException {
         // Allows User to Choose a File
         JFileChooser chooser = new JFileChooser();
 
