@@ -140,6 +140,9 @@ public class SecurityServiceTest extends TestCase
      * Change Alarm Status to Alarm State (5. TEST CASE)
      */
     public void testIsSensorActiveWhileAlreadyActiveAndSystemInPendingState() {
+        // Creates "Set" to Hold Sensors that are Already Active
+        Set<Sensor> activeSensors = new HashSet<>();
+
         // Iterates Through Set of Sensors
         for (Sensor singleSensor : pretendDatabaseSecurityRepository.getSensors()) {
             // Checks if Sensor is Activated
