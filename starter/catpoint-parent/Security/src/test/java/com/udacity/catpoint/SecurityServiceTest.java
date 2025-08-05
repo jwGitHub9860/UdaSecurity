@@ -217,11 +217,11 @@ public class SecurityServiceTest extends TestCase
 
         // Calls "imageContainsCat(BufferedImage image, float confidenceThreshhold)" Method to Test if Image Contains Cat
         if (fakeImageService.imageContainsCat(image, 25.0f)) {
-
-        // Checks if System is Armed-Home
-        if (pretendDatabaseSecurityRepository.getArmingStatus() == ArmingStatus.ARMED_HOME) {
-            // Calls "setAlarmStatus(AlarmStatus alarmStatus)" Method to Put System into Alarm Status
-            pretendDatabaseSecurityRepository.setAlarmStatus(AlarmStatus.ALARM);
+            // Checks if System is Armed-Home
+            if (pretendDatabaseSecurityRepository.getArmingStatus() == ArmingStatus.ARMED_HOME) {
+                // Calls "setAlarmStatus(AlarmStatus alarmStatus)" Method to Put System into Alarm Status
+                pretendDatabaseSecurityRepository.setAlarmStatus(AlarmStatus.ALARM);
+            }
         }
     }
 
