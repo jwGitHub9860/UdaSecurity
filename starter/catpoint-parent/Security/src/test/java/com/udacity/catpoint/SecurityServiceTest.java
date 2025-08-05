@@ -151,6 +151,9 @@ public class SecurityServiceTest extends TestCase
                 activeSensors.add(singleSensor);
             }
         }
+
+        // Iterates Through "activeSensors"
+        for (Sensor singleSensor : activeSensors) {
     }
 
     /**
