@@ -71,10 +71,10 @@ public class SecurityServiceTest extends TestCase
      * Puts System Into Pending Alarm Status, if BOTH Conditions are Met
      */
     public void testIsAlarmArmedAndSensorActivated() { // "@Test" is NOT NEEDED Because "SecurityServiceTest" Already Extends To "TestCase"
-        // Checks if Alarm is Armed
-        if (!(pretendDatabaseSecurityRepository.getArmingStatus() == ArmingStatus.DISARMED)) {
-            // Iterates Through Set of Sensors
-            for (Sensor sensorSet : pretendDatabaseSecurityRepository.getSensors()) {
+        // Iterates Through Set of Sensors
+        for (Sensor sensorSet : pretendDatabaseSecurityRepository.getSensors()) {
+            // Checks if Alarm is Armed for Each Sensor
+            if (!(pretendDatabaseSecurityRepository.getArmingStatus() == ArmingStatus.DISARMED)) { // MUST BE INSIDE "for loop"
                 // Checks if a Sensor Becomes Activated
                 if (sensor.getActive()) {
                     // Calls "setAlarmStatus(AlarmStatus alarmStatus)" Method to Put System into Pending Alarm Status
