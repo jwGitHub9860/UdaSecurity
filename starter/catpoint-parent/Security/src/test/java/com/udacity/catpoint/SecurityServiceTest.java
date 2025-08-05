@@ -209,9 +209,6 @@ public class SecurityServiceTest extends TestCase
      * Put System into Alarm Status, if BOTH Conditions are Met
      */
     public void testDoesImageContainCatWhileSystemArmedHome() throws IOException {
-        // Allows User to Choose a File
-        JFileChooser chooser = new JFileChooser();
-
         // Reads Image or Image File
         BufferedImage image = null;
 
