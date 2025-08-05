@@ -40,6 +40,9 @@ public class SecurityServiceTest extends TestCase
     // Allows Methods from "Sensor.java" to be Accessed by ALL Methods WITHIN "SecurityServiceTest" class
     final Sensor sensor = new Sensor(name, sensorType);
 
+    // Allows Methods from "FakeImageService.java" to be Accessed by ALL Methods WITHIN "SecurityServiceTest" class
+    final FakeImageService fakeImageService = new FakeImageService();
+
     /**
      * Create the test case
      *
