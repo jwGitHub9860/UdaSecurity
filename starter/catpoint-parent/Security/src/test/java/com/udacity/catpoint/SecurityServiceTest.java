@@ -252,6 +252,6 @@ public class SecurityServiceTest extends TestCase
      */
     public void testIsSystemArmedHomeWhileCameraShowsCat() {
         // Calls "processImage(BufferedImage currentCameraImage)" Method to Ensure Camera Shows Cat because "catDetected(Boolean cat)" Method is PRIVATE
-        //pretendDatabaseSecurityRepository.processImage(BufferedImage test); // NEEDS TO BE FIXED
+        pretendDatabaseSecurityRepository.processImage(BufferedImage test); // NEEDS TO BE FIXED
     }
 }
