@@ -72,7 +72,7 @@ public class SecurityServiceTest extends TestCase
      */
     public void testIsAlarmArmedAndSensorActivated() { // "@Test" is NOT NEEDED Because "SecurityServiceTest" Already Extends To "TestCase"
         // Iterates Through Set of Sensors
-        for (Sensor sensor : pretendDatabaseSecurityRepository.getSensors()) {
+        for (Sensor singleSensor : pretendDatabaseSecurityRepository.getSensors()) {
             // Checks if Alarm is Armed for Each Sensor
             if (!(pretendDatabaseSecurityRepository.getArmingStatus() == ArmingStatus.DISARMED)) { // MUST BE INSIDE "for loop"
                 // Checks if a Sensor Becomes Activated
@@ -191,7 +191,7 @@ public class SecurityServiceTest extends TestCase
         // Checks if System is Armed
         if (!(pretendDatabaseSecurityRepository.getArmingStatus() == ArmingStatus.DISARMED)) {
             // Iterates Through Set of Sensors
-            for (Sensor sensor : pretendDatabaseSecurityRepository.getSensors()) {
+            for (Sensor singleSensor : pretendDatabaseSecurityRepository.getSensors()) {
                 // Calls "setActive(Boolean active)" Method to Reset ALL Sensors to Inactive if Condition is Met
                 sensor.setActive(false);
             }
