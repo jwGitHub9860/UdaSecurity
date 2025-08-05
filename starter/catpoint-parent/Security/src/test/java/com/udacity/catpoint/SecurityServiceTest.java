@@ -11,6 +11,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
+import javax.imageio.ImageIO; // defines "ImageIO"
 import java.awt.image.BufferedImage;
 import java.util.HashSet;
 import java.util.Set;
