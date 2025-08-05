@@ -88,7 +88,7 @@ public class SecurityServiceTest extends TestCase
             for (Sensor sensorSet : securityService.getSensors()) {
                 // Checks if a Sensor Becomes Activated
                 if (sensor.getActive()) {
-                    // Puts System into Pending Alarm Status
+                    // Calls "setAlarmStatus(AlarmStatus alarmStatus)" Method to Put System into Pending Alarm Status
                     pretendDatabaseSecurityRepository.setAlarmStatus(AlarmStatus.PENDING_ALARM);
                 }
             }
@@ -106,7 +106,7 @@ public class SecurityServiceTest extends TestCase
             if (sensor.getActive()) {
                 // Checks if System is already Pending Alarm
                 if (securityService.getAlarmStatus() == AlarmStatus.PENDING_ALARM) {
-                    // Sets Alarm Status to Alarm
+                    // Calls "setAlarmStatus(AlarmStatus alarmStatus)" Method to Set Alarm Status to Alarm
                     pretendDatabaseSecurityRepository.setAlarmStatus(AlarmStatus.ALARM);
                 }
             }
