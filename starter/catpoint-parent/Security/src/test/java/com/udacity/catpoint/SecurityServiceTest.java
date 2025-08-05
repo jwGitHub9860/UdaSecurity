@@ -141,7 +141,10 @@ public class SecurityServiceTest extends TestCase
      */
     public void testIsSensorActiveWhileAlreadyActiveAndSystemInPendingState() {
         // Iterates Through Set of Sensors
-        for (Sensor singleSensor : pretendDatabaseSecurityRepository.getSensors())
+        for (Sensor singleSensor : pretendDatabaseSecurityRepository.getSensors()) {
+            // Checks if Sensor is Activated
+            if (sensor.getActive())
+        }
     }
 
     /**
