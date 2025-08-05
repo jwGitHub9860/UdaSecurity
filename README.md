@@ -176,6 +176,10 @@ Casey, Jerome LacosteJohn. “Usage.” _Apache Maven Project_, 29 Jan. 2006, ma
 
 Casey, Jerome LacosteJohn. “Usage.” Apache Maven Project, 29 Jan. 2006, maven.apache.org/plugins/maven-deploy-plugin/usage.html#:~:text=To%20enable%20this%20mojo%20to,section%20similar%20to%20the%20following:. Accessed 1 Aug. 2025.
 
+“Class JFileChooser.” _JFileChooser (Java Platform SE 6)_, 19 Nov. 2015, docs.oracle.com/javase/6/docs/api/javax/swing/JFileChooser.html. Accessed 5 Aug. 2025.
+
+“Class JFileChooser.” _JFileChooser (Java Platform SE 8)_, 15 July 2025, docs.oracle.com/javase/8/docs/api/javax/swing/JFileChooser.html. Accessed 5 Aug. 2025.
+
 Cvguntur. “Understanding Apache Maven – Part 6 – POM Reference.” _C. V. Guntur_, 9 June 2020, cguntur.me/2020/06/20/understanding-apache-maven-part-6/#:~:text=A%20distributionManagement%20section%20is%20used,current%20project%20can%20inherit%20from. Accessed 1 Aug. 2025.
 
 “Deploy:Deploy.” _Apache Maven Deploy Plugin – Deploy:Deploy_, maven.apache.org/plugins/maven-deploy-plugin/deploy-mojo.html#:~:text=. Accessed 1 Aug. 2025.
@@ -233,6 +237,8 @@ Mirchevski, Bruno. “17 Maven Commands and Options [Cheat Sheet].” _VPSServer
 nihilogist. “Maven: Local versus Remote Repository.” Edited by Gijs Overvliet, _Stack Overflow_, 5 Jan. 2012, stackoverflow.com/questions/8746042/maven-local-versus-remote-repository. Accessed 28 Jul. 2025.
 
 “Online Compiler and Debugger for C/C++.” _GDB Online Debugger_, www.onlinegdb.com/. Accessed 24 Jul. 2025. 
+
+rohit. “Efficient Way to Read an Image File Using Java.” Edited by Tasos P., _Stack Overflow_, 11 July 2020, stackoverflow.com/questions/62852645/efficient-way-to-read-an-image-file-using-java. Accessed 5 Aug. 2025.
 
 S, Nikolai. “Enhanced Switch Blocks Are Not Supported at Language Level 12.” _Knowledge_, Udacity, 2022, knowledge.udacity.com/questions/784400. Accessed 25 Jul. 2025.
 
