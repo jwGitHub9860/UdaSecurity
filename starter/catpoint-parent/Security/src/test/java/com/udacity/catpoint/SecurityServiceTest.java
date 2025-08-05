@@ -206,6 +206,9 @@ public class SecurityServiceTest extends TestCase
      * Put System into Alarm Status, if BOTH Conditions are Met
      */
     public void testDoesImageContainCatWhileSystemArmedHome() {
+        // Reads Image or Image File
+        BufferedImage image = ImageIO.read(chooser.getSelectedFile()); // "ImageIO.read()" - Reads Image & "getSelectedFile()" - Returns Selected File
+
         // Calls "imageContainsCat(BufferedImage image, float confidenceThreshhold)" Method to Test if Image Contains Cat
         fakeImageService.imageContainsCat(image, 25.0f);
     }
