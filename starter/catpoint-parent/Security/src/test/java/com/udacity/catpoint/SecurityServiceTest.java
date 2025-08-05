@@ -220,6 +220,9 @@ public class SecurityServiceTest extends TestCase
 
         // Checks if System is Armed-Home
         if (pretendDatabaseSecurityRepository.getArmingStatus() == ArmingStatus.ARMED_HOME) {
+            // Calls "setAlarmStatus(AlarmStatus alarmStatus)" Method to Put System into Alarm Status
+            pretendDatabaseSecurityRepository.setAlarmStatus(AlarmStatus.ALARM);
+        }
     }
 
     /**
