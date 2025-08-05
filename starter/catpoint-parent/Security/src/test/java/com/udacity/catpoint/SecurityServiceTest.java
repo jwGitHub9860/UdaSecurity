@@ -139,7 +139,10 @@ public class SecurityServiceTest extends TestCase
      * Test Case that Tests if A Sensor is Activated while Already Active & System is in Pending State
      * Change Alarm Status to Alarm State (5. TEST CASE)
      */
-    public void testIsSensorActiveWhileAlreadyActiveAndSystemInPendingState() {}
+    public void testIsSensorActiveWhileAlreadyActiveAndSystemInPendingState() {
+        // Iterates Through Set of Sensors
+        for (Sensor singleSensor : pretendDatabaseSecurityRepository.getSensors())
+    }
 
     /**
      * Test Case that Tests if A Sensor is Deactivated WHILE Already Inactive
