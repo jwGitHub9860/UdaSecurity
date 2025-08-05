@@ -154,6 +154,9 @@ public class SecurityServiceTest extends TestCase
 
         // Iterates Through "activeSensors"
         for (Sensor singleSensor : activeSensors) {
+            // Checks if Sensor is Activated WHILE Already Active
+            if (sensor.getActive()) {
+        }
     }
 
     /**
