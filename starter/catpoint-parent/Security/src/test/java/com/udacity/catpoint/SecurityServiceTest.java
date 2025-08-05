@@ -216,7 +216,7 @@ public class SecurityServiceTest extends TestCase
         BufferedImage image = ImageIO.read(chooser.getSelectedFile()); // "ImageIO.read()" - Reads Image & "getSelectedFile()" - Returns Selected File
 
         // Calls "imageContainsCat(BufferedImage image, float confidenceThreshhold)" Method to Test if Image Contains Cat
-        fakeImageService.imageContainsCat(image, 25.0f);
+        if (fakeImageService.imageContainsCat(image, 25.0f)) {
 
         // Checks if System is Armed-Home
         if (pretendDatabaseSecurityRepository.getArmingStatus() == ArmingStatus.ARMED_HOME) {
