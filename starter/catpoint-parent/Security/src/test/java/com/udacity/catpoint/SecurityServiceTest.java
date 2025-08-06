@@ -238,6 +238,9 @@ public class SecurityServiceTest extends TestCase
                 // Checks if "singleSensor" is Active
                 if (sensor.getActive()) {
                     allSensorsNotActive = false;
+
+                    // Breaks out of "for loop" because ALL Sensors Must Be NOT Active
+                    break;
                 }
             }
         }
