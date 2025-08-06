@@ -187,7 +187,7 @@ public class SecurityServiceTest extends TestCase
         Set<Sensor> inactiveSensors = new HashSet<>();
 
         // Iterates Through Set of Sensors
-        for (Sensor sensor : pretendDatabaseSecurityRepository.getSensors()) {
+        for (Sensor singleSensor : pretendDatabaseSecurityRepository.getSensors()) {
             // Checks if Sensor is Already Inactive
             if (!sensor.getActive()) {
                 // Adds "sensor" to "inactiveSensors"
@@ -196,7 +196,7 @@ public class SecurityServiceTest extends TestCase
         }
 
         // Iterates Through "inactiveSensors"
-        for (Sensor sensor : inactiveSensors) {
+        for (Sensor singleSensor : inactiveSensors) {
             // Checks if Sensor is Deactivated WHILE Already Inactive
             if (!sensor.getActive()) {
                 // Calls "setAlarmStatus(AlarmStatus alarmStatus)" Method to Ensure NO CHANGES are Made to Alarm State
