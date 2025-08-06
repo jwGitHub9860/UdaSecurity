@@ -254,5 +254,8 @@ public class SecurityServiceTest extends TestCase
     public void testIsSystemArmedHomeWhileCameraShowsCat() {
         // Calls "imageContainsCat(BufferedImage image, float confidenceThreshhold)" Method to Test if Image Contains Cat
         if (fakeImageService.imageContainsCat(image, 15.0f)) {
+            // Tests if System is Armed-Home
+            if (pretendDatabaseSecurityRepository.getArmingStatus() == ArmingStatus.ARMED_HOME) {
+        }
     }
 }
