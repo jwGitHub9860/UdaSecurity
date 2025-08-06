@@ -235,6 +235,9 @@ public class SecurityServiceTest extends TestCase
         if (fakeImageService.imageContainsCat(image, 35.0f)) {
             // Iterates Through Set of Sensors
             for (Sensor singleSensor : pretendDatabaseSecurityRepository.getSensors()) {
+                // Checks if "singleSensor" is Active
+                if (sensor.getActive()) {
+            }
         }
     }
 
