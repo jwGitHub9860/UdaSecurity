@@ -274,7 +274,7 @@ public class SecurityServiceTest extends TestCase
             // Iterates Through Set of Sensors
             for (Sensor singleSensor : pretendDatabaseSecurityRepository.getSensors()) {
                 // Calls "setActive(Boolean active)" Method to Reset ALL Sensors to Inactive if Condition is Met
-                sensor.setActive(false);
+                singleSensor.setActive(false);
             }
         }
     }
