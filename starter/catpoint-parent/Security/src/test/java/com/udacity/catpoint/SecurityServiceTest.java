@@ -37,6 +37,9 @@ public class SecurityServiceTest extends TestCase
     @Mock
     private SensorType sensorType; // "SensorType" - Mock Class
 
+    // Reads Image or Image File
+    BufferedImage image = null;
+
     // Allows Methods from "PretendDatabaseSecurityRepositoryImpl.java" to be Accessed by ALL Methods WITHIN "SecurityServiceTest" class
     final PretendDatabaseSecurityRepositoryImpl pretendDatabaseSecurityRepository = new PretendDatabaseSecurityRepositoryImpl();
 
@@ -209,9 +212,6 @@ public class SecurityServiceTest extends TestCase
      * Put System into Alarm Status, if BOTH Conditions are Met
      */
     public void testDoesImageContainCatWhileSystemArmedHome() throws IOException {
-        // Reads Image or Image File
-        BufferedImage image = null;
-
         // Calls "imageContainsCat(BufferedImage image, float confidenceThreshhold)" Method to Test if Image Contains Cat
         if (fakeImageService.imageContainsCat(image, 25.0f)) {
             // Checks if System is Armed-Home
