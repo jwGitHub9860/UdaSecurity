@@ -73,6 +73,8 @@ public class SecurityServiceTest extends TestCase
      * Puts System Into Pending Alarm Status, if BOTH Conditions are Met
      */
     public void testIsAlarmArmedAndSensorActivated() { // "@Test" is NOT NEEDED Because "SecurityServiceTest" Already Extends To "TestCase"
+        ArmingStatus currentArmingStatus = pretendDatabaseSecurityRepository.getArmingStatus(); // TESTING CODE
+
         // Iterates Through Set of Sensors
         for (Sensor singleSensor : pretendDatabaseSecurityRepository.getSensors()) {
             // Checks if Alarm is Armed for Each Sensor
