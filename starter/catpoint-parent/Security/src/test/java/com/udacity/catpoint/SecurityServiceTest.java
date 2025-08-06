@@ -38,7 +38,8 @@ public class SecurityServiceTest extends TestCase
     private SensorType sensorType; // "SensorType" - Mock Class
 
     // Reads Image or Image File
-    BufferedImage image = null;
+    @Mock
+    private BufferedImage image = null;
 
     // Allows Methods from "PretendDatabaseSecurityRepositoryImpl.java" to be Accessed by ALL Methods WITHIN "SecurityServiceTest" class
     final PretendDatabaseSecurityRepositoryImpl pretendDatabaseSecurityRepository = new PretendDatabaseSecurityRepositoryImpl();
