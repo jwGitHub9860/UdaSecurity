@@ -228,6 +228,9 @@ public class SecurityServiceTest extends TestCase
      * Change Status to No Alarm AS LONG AS Sensors are NOT Active
      */
     public void testDoesImageNotContainCatAndSensorsNotActive() {
+        // Determines if ALL Sensors are NOT Active
+        boolean allSensorsNotActive = false;
+
         // Tests if Image does NOT Contain Cat
         if (fakeImageService.imageContainsCat(image, 35.0f)) {
     }
