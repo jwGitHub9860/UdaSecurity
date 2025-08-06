@@ -227,7 +227,10 @@ public class SecurityServiceTest extends TestCase
      * Test Case that Tests if Image does NOT Contain Cat
      * Change Status to No Alarm AS LONG AS Sensors are NOT Active
      */
-    public void testDoesImageNotContainCatAndSensorsNotActive() {}
+    public void testDoesImageNotContainCatAndSensorsNotActive() {
+        // Tests if Image does NOT Contain Cat
+        if (fakeImageService.imageContainsCat(image, 35.0f)) {
+    }
 
     /**
      * Test Case that Tests if System is Disarmed
