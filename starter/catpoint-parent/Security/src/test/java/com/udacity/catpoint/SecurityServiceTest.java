@@ -242,6 +242,9 @@ public class SecurityServiceTest extends TestCase
                     // Breaks out of "for loop" because ALL Sensors Must Be NOT Active
                     break;
                 }
+                else {
+                    allSensorsNotActive = true;
+                }
             }
         }
     }
