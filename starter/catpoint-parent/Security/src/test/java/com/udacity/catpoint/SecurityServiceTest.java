@@ -114,7 +114,7 @@ public class SecurityServiceTest extends TestCase
 
     /**
      * Test Case that Tests if Pending Alarm & All Sensors are Inactive
-     * Sets Alarm Status to No Alarm State if ALL Conditions are Met
+     * Sets Alarm Status to No Alarm State, if ALL Conditions are Met
      */
     public void testIsPendingAlarmAndAllSensorsInactive() {
         // Checks if Alarm Status is Pending
@@ -225,7 +225,7 @@ public class SecurityServiceTest extends TestCase
 
     /**
      * Test Case that Tests if System is Disarmed
-     * Set Alarm Status to No Alarm if Condition is Met
+     * Set Alarm Status to No Alarm, if Condition is Met
      */
     public void testIsSystemDisarmed() {
         // Calls "setArmingStatus(ArmingStatus armingStatus)" Method to Test if Alarm Status will be Set to No Alarm IF System is Disarmed
@@ -234,7 +234,7 @@ public class SecurityServiceTest extends TestCase
 
     /**
      * Test Case that Tests if System is Armed
-     * Reset ALL Sensors to Inactive if Condition is Met
+     * Reset ALL Sensors to Inactive, if Condition is Met
      */
     public void testIsSystemArmed() {
         // Checks if System is Armed
