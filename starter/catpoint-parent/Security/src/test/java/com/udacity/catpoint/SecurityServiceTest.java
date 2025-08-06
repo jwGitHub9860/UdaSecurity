@@ -249,6 +249,9 @@ public class SecurityServiceTest extends TestCase
 
             // Checks if ALL Sensors are NOT Active
             if (allSensorsNotActive) {
+                // Calls "setAlarmStatus(AlarmStatus alarmStatus)" Method to Change Status to No Alarm
+                pretendDatabaseSecurityRepository.setAlarmStatus(AlarmStatus.NO_ALARM);
+            }
         }
     }
 
