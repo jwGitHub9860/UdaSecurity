@@ -209,7 +209,7 @@ public class SecurityServiceTest extends TestCase
      * Test Case that Tests if Image Contains Cat WHILE System is Armed-Home
      * Put System into Alarm Status, if BOTH Conditions are Met
      */
-    public void testDoesImageContainCatWhileSystemArmedHome() throws IOException {
+    public void testDoesImageContainCatWhileSystemArmedHome() {
         // Calls "imageContainsCat(BufferedImage image, float confidenceThreshhold)" Method to Test if Image Contains Cat
         if (fakeImageService.imageContainsCat(image, 25.0f)) {
             // Checks if System is Armed-Home
