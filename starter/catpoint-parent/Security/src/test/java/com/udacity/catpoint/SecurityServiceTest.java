@@ -2,19 +2,14 @@ package com.udacity.catpoint;
 
 import com.udacity.catpoint.data.*;
 import com.udacity.catpoint.service.FakeImageService;
-import com.udacity.catpoint.service.SecurityService;
 import junit.framework.Test;
 import junit.framework.TestCase;
-import junit.framework.TestResult;
 import junit.framework.TestSuite;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import javax.imageio.ImageIO; // defines "ImageIO"
-import javax.swing.*; // defines "JFileChooser"
 import java.awt.image.BufferedImage;
-import java.io.IOException;
 import java.util.HashSet;
 import java.util.Set;
 
