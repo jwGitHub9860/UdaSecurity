@@ -224,6 +224,12 @@ public class SecurityServiceTest extends TestCase
     }
 
     /**
+     * Test Case that Tests if Image does NOT Contain Cat
+     * Change Status to No Alarm AS LONG AS Sensors are NOT Active
+     */
+    public void testDoesImageNotContainCatAndSensorsNotActive() {}
+
+    /**
      * Test Case that Tests if System is Disarmed
      * Set Alarm Status to No Alarm, if Condition is Met
      */
