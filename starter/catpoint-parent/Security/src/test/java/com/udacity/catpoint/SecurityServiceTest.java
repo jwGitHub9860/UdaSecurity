@@ -252,6 +252,6 @@ public class SecurityServiceTest extends TestCase
      */
     public void testIsSystemArmedHomeWhileCameraShowsCat() {
         // Calls "imageContainsCat(BufferedImage image, float confidenceThreshhold)" Method to Test if Image Contains Cat
-        fakeImageService.imageContainsCat(image, 15.0f)
+        if (fakeImageService.imageContainsCat(image, 15.0f)) {
     }
 }
