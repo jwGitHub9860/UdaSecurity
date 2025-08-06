@@ -246,6 +246,9 @@ public class SecurityServiceTest extends TestCase
                     allSensorsNotActive = true;
                 }
             }
+
+            // Checks if ALL Sensors are NOT Active
+            if (allSensorsNotActive) {
         }
     }
 
