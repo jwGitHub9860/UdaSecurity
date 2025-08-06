@@ -78,7 +78,7 @@ public class SecurityServiceTest extends TestCase
         // Iterates Through Set of Sensors
         for (Sensor singleSensor : pretendDatabaseSecurityRepository.getSensors()) {
             // Checks if Alarm is Armed for Each Sensor
-            if (!(pretendDatabaseSecurityRepository.getArmingStatus() == ArmingStatus.DISARMED)) { // MUST BE INSIDE "for loop"
+            if (!(currentArmingStatus == ArmingStatus.DISARMED)) { // MUST BE INSIDE "for loop"
                 // Checks if a Sensor Becomes Activated
                 if (singleSensor.getActive()) {
                     // Calls "setAlarmStatus(AlarmStatus alarmStatus)" Method to Put System into Pending Alarm Status
