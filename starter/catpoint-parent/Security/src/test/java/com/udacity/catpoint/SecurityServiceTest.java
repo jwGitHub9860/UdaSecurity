@@ -101,7 +101,7 @@ public class SecurityServiceTest extends TestCase
             // Iterates Through Set of Sensors
             for (Sensor singleSensor : pretendDatabaseSecurityRepository.getSensors()) {
                 // Checks if a Sensor Becomes Activated
-                if (sensor.getActive()) {
+                if (singleSensor.getActive()) {
                     // Checks if System is already Pending Alarm
                     if (pretendDatabaseSecurityRepository.getAlarmStatus() == AlarmStatus.PENDING_ALARM) {
                         // Calls "setAlarmStatus(AlarmStatus alarmStatus)" Method to Set Alarm Status to Alarm
@@ -156,7 +156,7 @@ public class SecurityServiceTest extends TestCase
         // Iterates Through Set of Sensors
         for (Sensor singleSensor : pretendDatabaseSecurityRepository.getSensors()) {
             // Checks if Sensor is Activated
-            if (sensor.getActive()) {
+            if (singleSensor.getActive()) {
                 // Adds "singleSensor" to "activeSensors"
                 activeSensors.add(singleSensor);
             }
@@ -165,7 +165,7 @@ public class SecurityServiceTest extends TestCase
         // Iterates Through "activeSensors"
         for (Sensor singleSensor : activeSensors) {
             // Checks if Sensor is Activated WHILE Already Active
-            if (sensor.getActive()) {
+            if (singleSensor.getActive()) {
                 // Checks if System is in Pending State
                 if (pretendDatabaseSecurityRepository.getAlarmStatus() == AlarmStatus.PENDING_ALARM) {
                     // Calls "setAlarmStatus(AlarmStatus alarmStatus)" Method to Change Alarm Status to Alarm State
@@ -192,7 +192,7 @@ public class SecurityServiceTest extends TestCase
         // Iterates Through Set of Sensors
         for (Sensor singleSensor : pretendDatabaseSecurityRepository.getSensors()) {
             // Checks if Sensor is Already Inactive
-            if (!sensor.getActive()) {
+            if (!singleSensor.getActive()) {
                 // Adds "sensor" to "inactiveSensors"
                 inactiveSensors.add(sensor);
             }
@@ -201,7 +201,7 @@ public class SecurityServiceTest extends TestCase
         // Iterates Through "inactiveSensors"
         for (Sensor singleSensor : inactiveSensors) {
             // Checks if Sensor is Deactivated WHILE Already Inactive
-            if (!sensor.getActive()) {
+            if (!singleSensor.getActive()) {
                 // Calls "setAlarmStatus(AlarmStatus alarmStatus)" Method to Ensure NO CHANGES are Made to Alarm State
                 pretendDatabaseSecurityRepository.setAlarmStatus(initialAlarmState); // MUST USE "setAlarmStatus(AlarmStatus alarmStatus)" Method From "PretendDatabaseSecurityRepositoryImpl.java" TO BE ABLE TO RUN TEST CASE
             }
@@ -236,7 +236,7 @@ public class SecurityServiceTest extends TestCase
             // Iterates Through Set of Sensors
             for (Sensor singleSensor : pretendDatabaseSecurityRepository.getSensors()) {
                 // Checks if "singleSensor" is Active
-                if (sensor.getActive()) {
+                if (singleSensor.getActive()) {
                     allSensorsNotActive = false;
 
                     // Breaks out of "for loop" because ALL Sensors Must Be NOT Active
