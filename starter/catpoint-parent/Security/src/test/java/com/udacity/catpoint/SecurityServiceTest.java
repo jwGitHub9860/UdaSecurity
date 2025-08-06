@@ -233,6 +233,8 @@ public class SecurityServiceTest extends TestCase
 
         // Tests if Image does NOT Contain Cat
         if (fakeImageService.imageContainsCat(image, 35.0f)) {
+            for (Sensor singleSensor : pretendDatabaseSecurityRepository.getSensors()) {
+        }
     }
 
     /**
