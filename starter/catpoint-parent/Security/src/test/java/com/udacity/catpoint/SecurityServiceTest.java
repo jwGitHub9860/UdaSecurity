@@ -249,7 +249,7 @@ public class SecurityServiceTest extends TestCase
 
     /**
      * Test Case that Tests if System is Armed-Home WHILE Camera Shows Cat
-     * Set Alarm Status to Alarm if Condition is Met (11. TEST CASE)          RETURN TO LATER
+     * Set Alarm Status to Alarm, if Condition is Met
      */
     public void testIsSystemArmedHomeWhileCameraShowsCat() {
         // Calls "imageContainsCat(BufferedImage image, float confidenceThreshhold)" Method to Test if Image Contains Cat
