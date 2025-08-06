@@ -26,9 +26,6 @@ import java.util.Set;
  */
 public class SecurityServiceTest extends TestCase
 {
-    private AlarmStatus alarmStatus;
-    private ArmingStatus armingStatus;
-
     // Declares Testing Variable Used to Construct "SecurityServiceTest"
     @Mock
     private String name;
