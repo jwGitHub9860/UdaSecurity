@@ -256,6 +256,9 @@ public class SecurityServiceTest extends TestCase
         if (fakeImageService.imageContainsCat(image, 15.0f)) {
             // Tests if System is Armed-Home
             if (pretendDatabaseSecurityRepository.getArmingStatus() == ArmingStatus.ARMED_HOME) {
+                // Calls "setAlarmStatus(AlarmStatus alarmStatus)" Method to Set Alarm Status to Alarm
+                pretendDatabaseSecurityRepository.setAlarmStatus(AlarmStatus.ALARM);
+            }
         }
     }
 }
