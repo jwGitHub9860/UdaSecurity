@@ -68,7 +68,16 @@
                         <configuration>
                             <!-- Creates JAR that Contains Binary Output Of Project, Along Unpacked Dependencies -->
                             <descriptorRefs>jar-with-dependencies</descriptorRefs>
-                            <target>14</target>
+
+                            <!-- Creates Executable JAR File -->
+                            <archive>
+                                <manifest>
+                                    <!-- Tells Which Main Class To Use -->
+                                    <mainClass>
+                                        com.udacity.catpoint.security.application.CatpointApp
+                                    </mainClass>
+                                </manifest>
+                            </archive>
                         </configuration>
                     </execution>
                 </executions>
