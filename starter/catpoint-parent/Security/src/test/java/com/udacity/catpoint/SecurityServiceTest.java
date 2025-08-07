@@ -143,8 +143,8 @@ public class SecurityServiceTest extends TestCase
         if (currentAlarmStatus == AlarmStatus.ALARM) {
             // Iterates Through "SensorType" Enum
             for (SensorType sensorType : SensorType.values()) {
-                // Checks if Alarm Status is STILL Active
-                if (!(currentAlarmStatus == AlarmStatus.ALARM)) {
+                // Checks if "currentSensorType" is NOT Equal To "sensorType"
+                if (currentSensorType != sensorType) {
                     // Sets Sensor Type to "sensorType"
                     sensor.setSensorType(sensorType);
                 }
