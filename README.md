@@ -136,3 +136,134 @@ Make sure you have completed all the rubric items [here](https://review.udacity.
 
 You can submit your project by uploading a zip file or selecting your GitHub repo.
 
+
+<br/>
+
+
+## Description:
+
+The project is a home security application that tracks the status of sensors, monitors camera input, and changes the alarm state of the system based on inputs. Users can arm the system for when they’re home or away as well as disarm the system.
+
+## Files Used
+
+_None_
+
+
+## Date created
+
+**7/24/2025**
+
+## Udacity Mentors Who Have Answered Questions In _Knowledge_ To Help With Project
+
+- JULIANO
+
+## Credits
+###### References used while making project
+
+A, Noyan. “How Do I Run My Program after Splitting It into Modules?” _Knowledge_, Udacity, 2021, knowledge.udacity.com/questions/483315. Accessed 24 Jul. 2025.
+
+å, 梁. “What to Export?” _Knowledge_, Udacity, 2022, knowledge.udacity.com/questions/881462. Accessed 30 Jul. 2025.
+
+audrey. “How to Use MigLayout in IntelliJ?” _Stack Overflow_, 17 Apr. 2018, stackoverflow.com/questions/49887811/how-to-use-miglayout-in-intellij. Accessed 28 Jul. 2025.
+
+“AWS Java SDK Example.” _Telnyx Developer_, Telnyx, developers.telnyx.com/docs/cloud-storage/sdk/java. Accessed 30 Jul. 2025.
+
+ayush. “Udasecurity: Splitting the App.” _Knowledge_, Udacity, 2022, knowledge.udacity.com/questions/911834. Accessed 25 Jul. 2025.
+
+Azaw. “ Spilt the Security Service and Image Service into Modules in NEW Project?” _Knowledge_, Udacity, 2022, knowledge.udacity.com/questions/838167. Accessed 25 Jul. 2025.
+
+Casey, Jerome LacosteJohn. “Usage.” _Apache Maven Project_, 29 Jan. 2006, maven.apache.org/plugins/maven-deploy-plugin/usage.html#:~:text=To%20enable%20this%20mojo%20to,a%20set%20of%20related%20projects. Accessed 1 Aug. 2025.
+
+Casey, Jerome LacosteJohn. “Usage.” Apache Maven Project, 29 Jan. 2006, maven.apache.org/plugins/maven-deploy-plugin/usage.html#:~:text=To%20enable%20this%20mojo%20to,section%20similar%20to%20the%20following:. Accessed 1 Aug. 2025.
+
+“Class JFileChooser.” _JFileChooser (Java Platform SE 6)_, 19 Nov. 2015, docs.oracle.com/javase/6/docs/api/javax/swing/JFileChooser.html. Accessed 5 Aug. 2025.
+
+“Class JFileChooser.” _JFileChooser (Java Platform SE 8)_, 15 July 2025, docs.oracle.com/javase/8/docs/api/javax/swing/JFileChooser.html. Accessed 5 Aug. 2025.
+
+Cvguntur. “Understanding Apache Maven – Part 6 – POM Reference.” _C. V. Guntur_, 9 June 2020, cguntur.me/2020/06/20/understanding-apache-maven-part-6/#:~:text=A%20distributionManagement%20section%20is%20used,current%20project%20can%20inherit%20from. Accessed 1 Aug. 2025.
+
+“Deploy:Deploy.” _Apache Maven Deploy Plugin – Deploy:Deploy_, maven.apache.org/plugins/maven-deploy-plugin/deploy-mojo.html#:~:text=. Accessed 1 Aug. 2025.
+
+dnim. “IntelliJ IDEA: ‘Indexed Maven Repositories’ List - How to Add Remote Maven Repository in This List?” Edited by Shawn Chin and Om-nom-nom, _Stack Overflow_, 16 Nov. 2011, stackoverflow.com/questions/8150535/intellij-idea-indexed-maven-repositories-list-how-to-add-remote-maven-repos/58556678. Accessed 28 Jul. 2025.
+
+fudefite. “Using Miglayout with Netbeans.” _Stack Overflow_, 11 Dec. 2009, stackoverflow.com/questions/1891400/using-miglayout-with-netbeans. Accessed 28 Jul. 2025.
+
+GuruKulki, and dinox0r. “How to Know the Which Archetype an Existing Maven Project Is Built On?” _Stack Overflow_, 14 Nov. 2013, stackoverflow.com/questions/19983017/how-to-know-the-which-archetype-an-existing-maven-project-is-built-on. Accessed 25 Jul. 2025.
+
+H, Kevin. “Use the pluginManagement Tag in the Parent Pom to Set the Latest Versions for the Core Plugins Used by the Maven Lifecycle.” _Knowledge_, Udacity, 2022, knowledge.udacity.com/questions/898185. Accessed 30 Jul. 2025.
+
+“Index of /ICS4U1/Unit4-Graphics/Miglayout/11.0.” _Index of /ICS4U1/UNIT4-Graphics/Miglayout/11.0_, quarkphysics.ca/ICS4U1/unit4-graphics/miglayout/11.0/. Accessed 28 Jul. 2025.
+
+“Introduction to Remote Repositories.” _Introduction to Remote Repositories | Learn Git Ebook (CLI Edition)_, www.git-tower.com/learn/git/ebook/en/command-line/remote-repositories/introduction#:~:text=Local%20repositories%20reside%20on%20the,or%20on%20a%20local%20network. Accessed 28 Jul. 2025.
+
+“Iterating over Enum Values in Java.” _GeeksforGeeks_, GeeksforGeeks, 11 July 2025, www.geeksforgeeks.org/java/iterating-over-enum-values-in-java/. Accessed 3 Aug. 2025.
+
+James, and Gabriel Belingueres. “How to Find out Which Dependencies Need to Be Included?” _Stack Overflow_, 24 Nov. 2011, stackoverflow.com/questions/8262540/how-to-find-out-which-dependencies-need-to-be-included. Accessed 24 Jul. 2025.
+
+Jason, and HJW. “What Archetype to Choose for a Simple Java Project.” Edited by Mustafa Özçetin and Rogerdpack, _Stack Overflow_, 23 Aug. 2011, stackoverflow.com/questions/7158348/what-archetype-to-choose-for-a-simple-java-project. Accessed 25 Jul. 2025.
+
+Jenkov, Jakob. “Java Modules.” _Jenkov.Com Tech & Media Labs - Resources for Developers, IT Architects and Technopreneurs_, jenkov.com/tutorials/java/modules.html. Accessed 30 Jul. 2025.
+
+“JUnit » 4.13.2.” _MVN REPOSITORY_, mvnrepository.com/artifact/junit/junit/4.13.2. Accessed 30 Jul. 2025.
+
+“JUnit Jupiter API » 5.7.0.” _MVN REPOSITORY_, mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api/5.7.0. Accessed 25 Jul. 2025.
+
+“JUnit Jupiter Engine » 5.7.0.” _MVN REPOSITORY_, mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine/5.7.0. Accessed 25 Jul. 2025.
+
+“Maven Error: ‘Deployment Failed: Repository Element Was Not Specified in the POM inside distributionManagement Element or in -DaltDeploymentRepository=id.’” _Salesforce_, 2 Mar. 2024, help.salesforce.com/s/articleView?id=001122595&type=1. Accessed 1 Aug. 2025.
+
+“Maven. Repositories.” _IntelliJ IDEA Help_, IntelliJ IDEA, 23 Oct. 2024, www.jetbrains.com/help/idea/maven-repositories.html. Accessed 28 Jul. 2025.
+
+“Maven.” _Apache Maven Project_, maven.apache.org/ref/3.6.3/maven-model/maven.html#class_distributionManagement. Accessed 1 Aug. 2025.
+
+McCalley, Austin. “Google GSON Dependency Not Found.” _Stack Overflow_, 8 Jan. 2017, stackoverflow.com/questions/41539209/google-gson-dependency-not-found/41539256. Accessed 28 Jul. 2025.
+
+Meyer, Nick. “A For-Loop to Iterate over an Enum in Java.” Edited by Mateen Ulhaq, _Stack Overflow_, 9 July 2009, stackoverflow.com/questions/1104975/a-for-loop-to-iterate-over-an-enum-in-java. Accessed 3 Aug. 2025.
+
+“Mig Layout.” _Java Graphics - MigLayout_, quarkphysics.ca/ICS4U1/unit4-graphics/MigLayout.html. Accessed 28 Jul. 2025.
+
+Mirchevski, Bruno. “17 Maven Commands and Options [Cheat Sheet].” _VPSServer.Com_, 27 Sept. 2023, www.vpsserver.com/maven-commands-and-options/. Accessed 24 Jul. 2025.
+
+“MLA Works Cited: Electronic Sources (Web Publications).” _MLA Works Cited: Electronic Sources - Purdue OWL® - Purdue University_, owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_works_cited_electronic_sources.html. Accessed 24 Jul. 2025.
+
+“Mockito Core » 3.6.0.” _MVN REPOSITORY_, mvnrepository.com/artifact/org.mockito/mockito-core/3.6.0. Accessed 25 Jul. 2025.
+
+“Mockito JUnit Jupiter » 3.6.0.” _MVN REPOSITORY_, mvnrepository.com/artifact/org.mockito/mockito-junit-jupiter/3.6.0. Accessed 2 Aug. 2025.
+
+“Multi-Module Project With Spring Boot.” _GeeksforGeeks_, GeeksforGeeks, 23 July 2025, www.geeksforgeeks.org/java/multi-module-project-with-spring-boot/. Accessed 25 Jul. 2025.
+
+“Net.Miginfocom.Swing.MigLayout Maven / Gradle / Ivy.” _JAR Search and Dependency Download from the Maven Repository_, jar-download.com/artifacts/com.miglayout/miglayout-swing/5.2/source-code/net/miginfocom/swing/MigLayout.java. Accessed 28 Jul. 2025.
+
+nihilogist. “Maven: Local versus Remote Repository.” Edited by Gijs Overvliet, _Stack Overflow_, 5 Jan. 2012, stackoverflow.com/questions/8746042/maven-local-versus-remote-repository. Accessed 28 Jul. 2025.
+
+“Online Compiler and Debugger for C/C++.” _GDB Online Debugger_, www.onlinegdb.com/. Accessed 24 Jul. 2025. 
+
+rohit. “Efficient Way to Read an Image File Using Java.” Edited by Tasos P., _Stack Overflow_, 11 July 2020, stackoverflow.com/questions/62852645/efficient-way-to-read-an-image-file-using-java. Accessed 5 Aug. 2025.
+
+S, Nikolai. “Enhanced Switch Blocks Are Not Supported at Language Level 12.” _Knowledge_, Udacity, 2022, knowledge.udacity.com/questions/784400. Accessed 25 Jul. 2025.
+
+S, Shouvik. “I Am Not Able to Create a Jar File, When Trying to Build Security Module.” _Knowledge_, Udacity, 2024, knowledge.udacity.com/questions/1022201. Accessed 24 Jul. 2025.
+
+“Software.Amazon.Awssdk.Auth.Credentials.AwsBasicCredentials Maven / Gradle / Ivy.” _JAR Search and Dependency Download from the Maven Repository_, jar-download.com/artifacts/software.amazon.awssdk/bundle/2.0.0-preview-13/source-code/software/amazon/awssdk/auth/credentials/AwsBasicCredentials.java. Accessed 30 Jul. 2025.
+
+“Software/Amazon/Awssdk/Auth/2.9.9.” _Central Repository: Software/Amazon/Awssdk/Auth/2.9.9_, repo.maven.apache.org/maven2/software/amazon/awssdk/auth/2.9.9/. Accessed 28 Jul. 2025.
+
+Song, Yitong. “Unable to See Maven Tab IntelliJ IDEA 2024.3 (Ultimate Edition).” _JETBRAINS_, 18 Nov. 2024, intellij-support.jetbrains.com/hc/en-us/community/posts/22715417398034-Unable-to-see-maven-tab-IntelliJ-IDEA-2024-3-Ultimate-Edition. Accessed 24 Jul. 2025.
+
+Szczukocki, Denis. “Multi-Module Project with Maven.” _Baeldung_, 11 May 2024, www.baeldung.com/maven-multi-module. Accessed 25 Jul. 2025.
+
+Tanner, David E. “How to Configure Maven Setting.Xml and Pom.Xml to Deploy a Snapshot.” _MIT Wiki Service_, 15 Sept. 2009, wikis.mit.edu/confluence/display/devtools/How+to+configure+Maven+setting.xml+and+pom.xml+to+deploy+a+snapshot#:~:text=$%7BrenderedContent%7D-,Overview,my%20snapshot%20repository. Accessed 1 Aug. 2025.
+
+UAnjali. “Udacity/Cd0384-Java-Application-Deployment-Projectstarter.” _GitHub_, 2021, github.com/udacity/cd0384-java-application-deployment-projectstarter. Accessed 24 Jul. 2025.
+
+“Udacity Git Commit Message Style Guide.” _Udacity Nanodegree Style Guide_, udacity.github.io/git-styleguide/. Accessed 24 Jul. 2025.
+
+Walter, Newton. “Mastering the Module-Info.Java File in Java.” _Chronon Systems_, 7 Mar. 2023, chrononsystems.com/blog/module-info-java-file/. Accessed 30 Jul. 2025.
+
+Wikituby. “Deployment Failed: Repository Element Was Not Specified in the POM inside distributionManagement.” _YouTube_, YouTube, 1 May 2023, www.youtube.com/watch?v=eGpJ36NKcCE. Accessed 1 Aug. 2025.
+
+zoran119. “New Lines inside Paragraph in README.Md.” Edited by Yivi, _Stack Overflow_, 4 July 2014, stackoverflow.com/questions/24575680/new-lines-inside-paragraph-in-readme-md. Accessed 24 Jul. 2025.
+
+Zyl, Jason van, and Brian Fox. “Introduction to Repositories.” _Apache Maven Project_, Maven, 13 May 2008, maven.apache.org/guides/introduction/introduction-to-repositories.html. Accessed 28 Jul. 2025.
+
+Zyl, Jason van. “Setting up Multiple Repositories.” _Apache Maven Project_, 12 Oct. 2005, maven.apache.org/guides/mini/guide-multiple-repositories.html. Accessed 1 Aug. 2025.
