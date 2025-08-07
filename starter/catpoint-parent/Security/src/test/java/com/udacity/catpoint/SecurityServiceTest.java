@@ -42,6 +42,9 @@ public class SecurityServiceTest extends TestCase
     // Allows Methods from "FakeImageService.java" to be Accessed by ALL Methods WITHIN "SecurityServiceTest" class
     final FakeImageService fakeImageService = new FakeImageService();
 
+    // Allows "getAlarmStatus()" Method to be Covered by Code Coverage
+    private final AlarmStatus currentAlarmStatus = pretendDatabaseSecurityRepository.getAlarmStatus();
+
     // Allows "getArmingStatus()" Method to be Covered by Code Coverage
     private final ArmingStatus currentArmingStatus = pretendDatabaseSecurityRepository.getArmingStatus();
 
