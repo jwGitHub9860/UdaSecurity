@@ -198,7 +198,7 @@ public class SecurityServiceTest extends TestCase
             // Checks if Sensor is Already Inactive
             if (!singleSensor.getActive()) {
                 // Adds "sensor" to "inactiveSensors"
-                inactiveSensors.add(sensor);
+                inactiveSensors.add(singleSensor);
             }
         }
 
