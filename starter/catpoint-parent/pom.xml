@@ -69,6 +69,16 @@
       <version>3.6.0</version>
       <scope>test</scope>
     </dependency>
+
+    <!-- Maven Plugin Tools Java Annotations - Java annotations to use in Mojos -->
+    <!-- Maven Plugin that Allows User to Compile Application into Executable JAR File -->
+    <!-- https://mvnrepository.com/artifact/org.apache.maven.plugin-tools/maven-plugin-annotations -->
+    <dependency>
+      <groupId>org.apache.maven.plugin-tools</groupId>
+      <artifactId>maven-plugin-annotations</artifactId>
+      <version>3.15.1</version>
+      <scope>provided</scope>
+    </dependency>
   </dependencies>
 
   <build>
