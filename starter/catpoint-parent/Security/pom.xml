@@ -50,10 +50,16 @@
                 <artifactId>maven-assembly-plugin</artifactId> <!-- Replace "maven-compiler-plugin" with "maven-assembly-plugin" -->
 
                 <version>3.3.0</version>
-                <configuration>
-                    <source>14</source>
-                    <target>14</target>
-                </configuration>
+
+                <!-- Defines Executions for "pom.xml" File of "Security" Child Module -->
+                <executions>
+                    <execution>
+                        <configuration>
+                            <source>14</source>
+                            <target>14</target>
+                        </configuration>
+                    </execution>
+                </executions>
             </plugin>
 
             <!-- Original Version of Initial Plugin -->
