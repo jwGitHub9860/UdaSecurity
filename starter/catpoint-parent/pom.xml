@@ -136,6 +136,17 @@
     </pluginManagement>
   </build>
 
+  <!-- Generates "spotbugs.html" Report in Project’s "/target/site" Directory -->
+  <reporting>
+    <plugins>
+      <plugin>
+        <groupId>com.github.spotbugs</groupId>
+        <artifactId>spotbugs-maven-plugin</artifactId>
+        <version>4.7.0.0</version>
+      </plugin>
+    </plugins>
+  </reporting>
+
   <distributionManagement>
     <repository>
       <id>internal.repo</id>
