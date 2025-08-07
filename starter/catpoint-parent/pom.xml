@@ -100,7 +100,8 @@
         </plugin>
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
-          <version>3.0.0-M5</version>
+          <!-- Version "3.0.0-M5" is compatible with JDK 14 -->
+          <version>3.0.0-M5</version> <!-- Changed "maven-surefire-plugin" version from "2.22.1" to "3.0.0-M5" --> <!-- Fixes Error of No Assembly Descriptors being Found in "catpoint-parent" Parent Module -->
         </plugin>
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
