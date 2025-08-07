@@ -182,6 +182,8 @@ Casey, Jerome LacosteJohn. “Usage.” Apache Maven Project, 29 Jan. 2006, mave
 
 Cvguntur. “Understanding Apache Maven – Part 6 – POM Reference.” _C. V. Guntur_, 9 June 2020, cguntur.me/2020/06/20/understanding-apache-maven-part-6/#:~:text=A%20distributionManagement%20section%20is%20used,current%20project%20can%20inherit%20from. Accessed 1 Aug. 2025.
 
+D, Dao Anh. “BUILD FAILURE in Section 6: Build the Application into an Executable JAR.” _Knowledge_, Udacity, 2022, knowledge.udacity.com/questions/854204. Accessed 6 Aug. 2025.
+
 “Deploy:Deploy.” _Apache Maven Deploy Plugin – Deploy:Deploy_, maven.apache.org/plugins/maven-deploy-plugin/deploy-mojo.html#:~:text=. Accessed 1 Aug. 2025.
 
 dnim. “IntelliJ IDEA: ‘Indexed Maven Repositories’ List - How to Add Remote Maven Repository in This List?” Edited by Shawn Chin and Om-nom-nom, _Stack Overflow_, 16 Nov. 2011, stackoverflow.com/questions/8150535/intellij-idea-indexed-maven-repositories-list-how-to-add-remote-maven-repos/58556678. Accessed 28 Jul. 2025.
