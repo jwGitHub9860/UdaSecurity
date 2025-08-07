@@ -54,6 +54,17 @@
                 <!-- Defines Executions for "pom.xml" File of "Security" Child Module -->
                 <executions>
                     <execution>
+                        <!-- Defines Plugin Id as Assembly -->
+                        <id>make-assembly</id>
+
+                        <!-- Defines Plugin Phase as Package -->
+                        <phase>package</phase>
+
+                        <!-- Defines Plugin Goals to Assemble as Single -->
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+
                         <configuration>
                             <source>14</source>
                             <target>14</target>
