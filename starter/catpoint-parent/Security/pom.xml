@@ -45,7 +45,10 @@
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
+
+                <!-- Configures the Generation of the Executable Jar -->
+                <artifactId>maven-assembly-plugin</artifactId> <!-- Replace "maven-compiler-plugin" with "maven-assembly-plugin" -->
+
                 <configuration>
                     <source>14</source>
                     <target>14</target>
