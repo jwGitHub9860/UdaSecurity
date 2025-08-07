@@ -7,9 +7,15 @@
   <groupId>com.udacity.catpoint</groupId>
   <artifactId>catpoint-parent</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
 
   <name>catpoint-parent</name>
   <url>http://www.example.com</url>
+  <modules>
+    <module>GUI</module>
+    <module>Image</module>
+    <module>Security</module>
+  </modules>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -19,6 +25,60 @@
 
   <dependencies>
     <!-- add your dependencies here! -->
+
+    <!-- JUnit Jupiter - API for writing tests using JUnit 5 -->
+    <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <version>5.7.0</version> <!-- can NOT use "6.0.0-M2", "6.0.0-M1", "5.13.4", "5.13.3", "5.13.2", "5.13.1", "5.13.0", "5.13.0-RC1", "5.13.0-M3" versions, or ANYTHING Higher Than version "5.7.0" because versions CANNOT Be Found, Causing Error will Occur -->
+      <scope>test</scope>
+    </dependency>
+
+    <!-- JUnit Jupiter - Core package for the JUnit Jupiter test engine -->
+    <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <version>5.7.0</version> <!-- can NOT use ANYTHING Higher Than version "5.7.0" because versions CANNOT Be Found, Causing Error will Occur -->
+      <scope>test</scope>
+    </dependency>
+
+    <!-- Mockito Core - Mockito mock objects library core API and implementation -->
+    <!-- https://mvnrepository.com/artifact/org.mockito/mockito-core -->
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <version>3.6.0</version> <!-- can NOT use ANYTHING Higher Than version "3.6.0" because versions CANNOT Be Found, Causing Error will Occur -->
+      <scope>test</scope>
+    </dependency>
+
+    <!-- JUnit - Unit Testing Framework that Writes & Runs Repeatable Automated Tests on Java --> <!-- Allows "CatpointGui.java" to Use "PretendDatabaseSecurityRepositoryImpl.java", "SecurityRepository.java", and "SecurityService.java" Java Files inside "Security" Child Module -->
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13.2</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- Mockito Core - Mockito JUnit 5 support -->
+    <!-- Defines "MockitoExtension" inside "SecurityServiceTest.java" Java File inside "Security" Child Module -->
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-junit-jupiter</artifactId>
+      <version>3.6.0</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- Maven Plugin Tools Java Annotations - Java annotations to use in Mojos -->
+    <!-- Maven Plugin that Allows User to Compile Application into Executable JAR File -->
+    <!-- https://mvnrepository.com/artifact/org.apache.maven.plugin-tools/maven-plugin-annotations -->
+    <dependency>
+      <groupId>org.apache.maven.plugin-tools</groupId>
+      <artifactId>maven-plugin-annotations</artifactId>
+      <version>3.15.1</version>
+      <scope>provided</scope>
+    </dependency>
   </dependencies>
 
   <build>
@@ -66,4 +126,12 @@
       </plugins>
     </pluginManagement>
   </build>
+
+  <distributionManagement>
+    <repository>
+      <id>internal.repo</id>
+      <name>Internal Repository</name>
+      <url>https://github.com/jwGitHub9860/UdaSecurity.git</url>
+    </repository>
+  </distributionManagement>
 </project>
