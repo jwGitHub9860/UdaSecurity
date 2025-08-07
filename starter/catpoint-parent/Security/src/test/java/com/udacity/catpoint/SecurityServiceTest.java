@@ -48,6 +48,9 @@ public class SecurityServiceTest extends TestCase
     // Allows "getArmingStatus()" Method to be Covered by Code Coverage
     private final ArmingStatus currentArmingStatus = pretendDatabaseSecurityRepository.getArmingStatus();
 
+    // Allows "getSensors()" Method to be Covered by Code Coverage
+    private final Set<Sensor> currentSensorSet = pretendDatabaseSecurityRepository.getSensors();
+
     /**
      * Create the test case
      *
