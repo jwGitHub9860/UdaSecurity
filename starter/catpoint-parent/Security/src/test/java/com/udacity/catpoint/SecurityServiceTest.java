@@ -83,7 +83,7 @@ public class SecurityServiceTest extends TestCase
      */
     public void testIsAlarmArmedAndSensorActivated() { // "@Test" is NOT NEEDED Because "SecurityServiceTest" Already Extends To "TestCase"
         // Iterates Through Set of Sensors
-        for (Sensor singleSensor : pretendDatabaseSecurityRepository.getSensors()) {
+        for (Sensor singleSensor : currentSensorSet) {
             // Checks if Alarm is Armed for Each Sensor
             if (!(currentArmingStatus == ArmingStatus.DISARMED)) { // MUST BE INSIDE "for loop"
                 // Checks if a Sensor Becomes Activated
@@ -103,7 +103,7 @@ public class SecurityServiceTest extends TestCase
         // Checks if Alarm is Armed
         if (!(currentArmingStatus == ArmingStatus.DISARMED)) {
             // Iterates Through Set of Sensors
-            for (Sensor singleSensor : pretendDatabaseSecurityRepository.getSensors()) {
+            for (Sensor singleSensor : currentSensorSet) {
                 // Checks if a Sensor Becomes Activated
                 if (singleSensor.getActive()) {
                     // Checks if System is already Pending Alarm
@@ -158,7 +158,7 @@ public class SecurityServiceTest extends TestCase
         Set<Sensor> activeSensors = new HashSet<>();
 
         // Iterates Through Set of Sensors
-        for (Sensor singleSensor : pretendDatabaseSecurityRepository.getSensors()) {
+        for (Sensor singleSensor : currentSensorSet) {
             // Checks if Sensor is Activated
             if (singleSensor.getActive()) {
                 // Adds "singleSensor" to "activeSensors"
@@ -194,7 +194,7 @@ public class SecurityServiceTest extends TestCase
         Set<Sensor> inactiveSensors = new HashSet<>();
 
         // Iterates Through Set of Sensors
-        for (Sensor singleSensor : pretendDatabaseSecurityRepository.getSensors()) {
+        for (Sensor singleSensor : currentSensorSet) {
             // Checks if Sensor is Already Inactive
             if (!singleSensor.getActive()) {
                 // Adds "sensor" to "inactiveSensors"
@@ -238,7 +238,7 @@ public class SecurityServiceTest extends TestCase
         // Tests if Image does NOT Contain Cat
         if (fakeImageService.imageContainsCat(image, 35.0f)) {
             // Iterates Through Set of Sensors
-            for (Sensor singleSensor : pretendDatabaseSecurityRepository.getSensors()) {
+            for (Sensor singleSensor : currentSensorSet) {
                 // Checks if "singleSensor" is Active
                 if (singleSensor.getActive()) {
                     allSensorsNotActive = false;
@@ -279,7 +279,7 @@ public class SecurityServiceTest extends TestCase
         // Checks if System is Armed
         if (!(currentArmingStatus == ArmingStatus.DISARMED)) {
             // Iterates Through Set of Sensors
-            for (Sensor singleSensor : pretendDatabaseSecurityRepository.getSensors()) {
+            for (Sensor singleSensor : currentSensorSet) {
                 // Calls "setActive(Boolean active)" Method to Reset ALL Sensors to Inactive if Condition is Met
                 singleSensor.setActive(false);
             }
