@@ -132,7 +132,8 @@ public class SecurityServiceTest extends TestCase
     }
 
     /**
-     * Test Case that Tests if Alarm is Active, Sensor State will Change but NOT Alarm State (Alarm STAYS Active)
+     * Test Case that Tests if Alarm is Active
+     * Change Sensor State, but NOT Alarm State (Alarm STAYS Active), if Condition is Met
      */
     public void testIsAlarmStillActiveWhileSensorStateChanges() {
         // Checks if Alarm Status is Active
