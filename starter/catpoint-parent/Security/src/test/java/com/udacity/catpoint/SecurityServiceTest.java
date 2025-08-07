@@ -264,8 +264,11 @@ public class SecurityServiceTest extends TestCase
      * Set Alarm Status to No Alarm, if Condition is Met
      */
     public void testIsSystemDisarmed() {
-        // Calls "setArmingStatus(ArmingStatus armingStatus)" Method to Test if Alarm Status will be Set to No Alarm IF System is Disarmed
-        pretendDatabaseSecurityRepository.setArmingStatus(ArmingStatus.DISARMED); // MUST USE "setArmingStatus(ArmingStatus armingStatus)" Method From "PretendDatabaseSecurityRepositoryImpl.java" TO BE ABLE TO RUN TEST CASE
+        // Checks if System is Disarmed
+        if (currentArmingStatus == ArmingStatus.DISARMED) {
+            // Calls "setArmingStatus(ArmingStatus armingStatus)" Method to Test if Alarm Status will be Set to No Alarm IF System is Disarmed
+            pretendDatabaseSecurityRepository.setArmingStatus(ArmingStatus.DISARMED); // MUST USE "setArmingStatus(ArmingStatus armingStatus)" Method From "PretendDatabaseSecurityRepositoryImpl.java" TO BE ABLE TO RUN TEST CASE
+        }
     }
 
     /**
