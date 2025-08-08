@@ -79,6 +79,13 @@
       <version>3.15.1</version>
       <scope>provided</scope>
     </dependency>
+
+    <!-- Defines "com.github.spotbugs" for "com.github.spotbugs" Plugin -->
+    <dependency>
+      <groupId>com.github.spotbugs</groupId>
+      <artifactId>spotbugs-maven-plugin</artifactId>
+      <version>4.7.0.0</version>
+    </dependency>
   </dependencies>
 
   <build>
