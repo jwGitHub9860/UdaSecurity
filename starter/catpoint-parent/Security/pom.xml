@@ -45,6 +45,45 @@
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
+
+                <!-- Configures the Generation of the Executable Jar -->
+                <artifactId>maven-assembly-plugin</artifactId> <!-- Replace "maven-compiler-plugin" with "maven-assembly-plugin" -->
+
+                <version>3.3.0</version>
+
+                <!-- Defines Executions for "pom.xml" File of "Security" Child Module -->
+                <executions>
+                    <execution>
+                        <!-- Defines Plugin Id as Assembly -->
+                        <id>make-assembly</id>
+
+                        <!-- Defines Plugin Phase as Package -->
+                        <phase>package</phase>
+
+                        <!-- Defines Plugin Goals to Assemble as Single -->
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+
+                        <configuration>
+                            <!-- Creates JAR that Contains Binary Output Of Project, Along Unpacked Dependencies -->
+                            <descriptorRefs>jar-with-dependencies</descriptorRefs>
+
+                            <!-- Creates Executable JAR File -->
+                            <archive>
+                                <manifest>
+                                    <!-- Tells Which Main Class To Use -->
+                                    <mainClass>
+                                        com.udacity.catpoint.security.application.CatpointApp
+                                    </mainClass>
+                                </manifest>
+                            </archive>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
                     <source>14</source>

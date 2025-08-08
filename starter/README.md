@@ -117,7 +117,7 @@ Update your `pom.xml` to use a maven plugin that allows you to compile your appl
 
 Submit a screenshot titled `executable_jar.png` that shows you running the executable jar from the command line and the application launching. Use the command `java -jar [yourjarname]` to run it.
 
-![creating a jar file](jar.png)
+![creating a jar file](executable_jar.png)
 
 ## Section 7: Add Static Analysis to Build
 Add a Reporting tag to your pom that contains the `spotbugs-maven-plugin` and use it to generate a `spotbugs.html` report in your project’s `/target/site` directory. 
