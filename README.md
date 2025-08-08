@@ -214,6 +214,8 @@ Jenkov, Jakob. “Java Modules.” _Jenkov.Com Tech & Media Labs - Resources for
 
 “JUnit Jupiter Engine » 5.7.0.” _MVN REPOSITORY_, mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine/5.7.0. Accessed 25 Jul. 2025.
 
+K, Supriya. “Section 7, Error While Running Mvn Site.” _Knowledge_, Udacity, 2022, knowledge.udacity.com/questions/856300. Accessed 7 Aug. 2025.
+
 Lundberg, Dennis. “Make The Jar Executable.” _Apache Maven Project_, 1 Jan. 2008, maven.apache.org/shared/maven-archiver/examples/classpath.html. Accessed 7 Aug. 2025.
 
 “Maven Error: ‘Deployment Failed: Repository Element Was Not Specified in the POM inside distributionManagement Element or in -DaltDeploymentRepository=id.’” _Salesforce_, 2 Mar. 2024, help.salesforce.com/s/articleView?id=001122595&type=1. Accessed 1 Aug. 2025.
