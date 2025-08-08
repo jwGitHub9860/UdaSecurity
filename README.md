@@ -182,6 +182,8 @@ Casey, Jerome LacosteJohn. “Usage.” Apache Maven Project, 29 Jan. 2006, mave
 
 Cvguntur. “Understanding Apache Maven – Part 6 – POM Reference.” _C. V. Guntur_, 9 June 2020, cguntur.me/2020/06/20/understanding-apache-maven-part-6/#:~:text=A%20distributionManagement%20section%20is%20used,current%20project%20can%20inherit%20from. Accessed 1 Aug. 2025.
 
+D, Dao Anh. “BUILD FAILURE in Section 6: Build the Application into an Executable JAR.” _Knowledge_, Udacity, 2022, knowledge.udacity.com/questions/854204. Accessed 6 Aug. 2025.
+
 “Deploy:Deploy.” _Apache Maven Deploy Plugin – Deploy:Deploy_, maven.apache.org/plugins/maven-deploy-plugin/deploy-mojo.html#:~:text=. Accessed 1 Aug. 2025.
 
 dnim. “IntelliJ IDEA: ‘Indexed Maven Repositories’ List - How to Add Remote Maven Repository in This List?” Edited by Shawn Chin and Om-nom-nom, _Stack Overflow_, 16 Nov. 2011, stackoverflow.com/questions/8150535/intellij-idea-indexed-maven-repositories-list-how-to-add-remote-maven-repos/58556678. Accessed 28 Jul. 2025.
@@ -200,6 +202,8 @@ H, Kevin. “Use the pluginManagement Tag in the Parent Pom to Set the Latest Ve
 
 James, and Gabriel Belingueres. “How to Find out Which Dependencies Need to Be Included?” _Stack Overflow_, 24 Nov. 2011, stackoverflow.com/questions/8262540/how-to-find-out-which-dependencies-need-to-be-included. Accessed 24 Jul. 2025.
 
+“jar-with-dependencies.” _Apache Maven Project_, 7 Feb. 2011, maven.apache.org/plugins/maven-assembly-plugin/descriptor-refs.html#jar-with-dependencies. Accessed 7 Aug. 2025.
+
 Jason, and HJW. “What Archetype to Choose for a Simple Java Project.” Edited by Mustafa Özçetin and Rogerdpack, _Stack Overflow_, 23 Aug. 2011, stackoverflow.com/questions/7158348/what-archetype-to-choose-for-a-simple-java-project. Accessed 25 Jul. 2025.
 
 Jenkov, Jakob. “Java Modules.” _Jenkov.Com Tech & Media Labs - Resources for Developers, IT Architects and Technopreneurs_, jenkov.com/tutorials/java/modules.html. Accessed 30 Jul. 2025.
@@ -209,6 +213,10 @@ Jenkov, Jakob. “Java Modules.” _Jenkov.Com Tech & Media Labs - Resources for
 “JUnit Jupiter API » 5.7.0.” _MVN REPOSITORY_, mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api/5.7.0. Accessed 25 Jul. 2025.
 
 “JUnit Jupiter Engine » 5.7.0.” _MVN REPOSITORY_, mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine/5.7.0. Accessed 25 Jul. 2025.
+
+K, Supriya. “Section 7, Error While Running Mvn Site.” _Knowledge_, Udacity, 2022, knowledge.udacity.com/questions/856300. Accessed 7 Aug. 2025.
+
+Lundberg, Dennis. “Make The Jar Executable.” _Apache Maven Project_, 1 Jan. 2008, maven.apache.org/shared/maven-archiver/examples/classpath.html. Accessed 7 Aug. 2025.
 
 “Maven Error: ‘Deployment Failed: Repository Element Was Not Specified in the POM inside distributionManagement Element or in -DaltDeploymentRepository=id.’” _Salesforce_, 2 Mar. 2024, help.salesforce.com/s/articleView?id=001122595&type=1. Accessed 1 Aug. 2025.
 
@@ -250,6 +258,8 @@ S, Shouvik. “I Am Not Able to Create a Jar File, When Trying to Build Security
 
 Song, Yitong. “Unable to See Maven Tab IntelliJ IDEA 2024.3 (Ultimate Edition).” _JETBRAINS_, 18 Nov. 2024, intellij-support.jetbrains.com/hc/en-us/community/posts/22715417398034-Unable-to-see-maven-tab-IntelliJ-IDEA-2024-3-Ultimate-Edition. Accessed 24 Jul. 2025.
 
+“surefire:test.” _Apache Maven Project_, maven.apache.org/surefire/maven-surefire-plugin/test-mojo.html. Accessed 7 Aug. 2025.
+
 Szczukocki, Denis. “Multi-Module Project with Maven.” _Baeldung_, 11 May 2024, www.baeldung.com/maven-multi-module. Accessed 25 Jul. 2025.
 
 Tanner, David E. “How to Configure Maven Setting.Xml and Pom.Xml to Deploy a Snapshot.” _MIT Wiki Service_, 15 Sept. 2009, wikis.mit.edu/confluence/display/devtools/How+to+configure+Maven+setting.xml+and+pom.xml+to+deploy+a+snapshot#:~:text=$%7BrenderedContent%7D-,Overview,my%20snapshot%20repository. Accessed 1 Aug. 2025.
@@ -261,6 +271,8 @@ UAnjali. “Udacity/Cd0384-Java-Application-Deployment-Projectstarter.” _GitHu
 Walter, Newton. “Mastering the Module-Info.Java File in Java.” _Chronon Systems_, 7 Mar. 2023, chrononsystems.com/blog/module-info-java-file/. Accessed 30 Jul. 2025.
 
 Wikituby. “Deployment Failed: Repository Element Was Not Specified in the POM inside distributionManagement.” _YouTube_, YouTube, 1 May 2023, www.youtube.com/watch?v=eGpJ36NKcCE. Accessed 1 Aug. 2025.
+
+X, Yi. “How to Package up the Project?” _Knowledge_, Udacity, 2023, knowledge.udacity.com/questions/933447. Accessed 7 Aug. 2025.
 
 zoran119. “New Lines inside Paragraph in README.Md.” Edited by Yivi, _Stack Overflow_, 4 July 2014, stackoverflow.com/questions/24575680/new-lines-inside-paragraph-in-readme-md. Accessed 24 Jul. 2025.
 
